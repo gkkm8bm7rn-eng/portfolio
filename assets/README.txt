@@ -1,0 +1,1 @@
+Portfolio image assets for OTUTTO and other cases.
