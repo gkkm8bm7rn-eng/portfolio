@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Forma Home — кейс Светланы Чуковой: превращение товарной Excel-базы в рабочий e-commerce каталог без отдельного бюджета на разработку.">
+  <meta name="description" content="Forma Home — e-commerce каталог из товарной Excel-базы: данные, интерфейс, реальные варианты товаров, корзина и подготовка заказа.">
   <meta name="theme-color" content="#1d1714">
   <title>Forma Home — кейс Светланы Чуковой</title>
   <link rel="stylesheet" href="styles.css?v=20260831-product">
   <script defer src="app.js?v=20260831-product"></script>
+  <script defer src="copy-translations.js?v=20260831-semantic"></script>
   <noscript><style>.reveal-section{opacity:1!important;transform:none!important}.progressive-media>[data-progressive],.progressive-media>[data-progressive-group]{opacity:1!important}.themed-loader,.media-placeholder{display:none!important}</style></noscript>
 </head>
 <body class="case-page case-forma">
@@ -21,9 +22,9 @@
       <div class="case-hero-copy">
         <a class="back-link" href="index.html#projects">← Все проекты</a>
         <p class="eyebrow">02 · FORMA HOME / E-COMMERCE</p>
-        <h1>Из Excel —<br><em>в рабочий продукт.</em></h1>
-        <p class="case-lead">Товарная таблица стала понятным web-каталогом с поиском, сортировкой, вариантами, избранным, корзиной и подготовкой обращения менеджеру — без отдельного бюджета на разработку.</p>
-        <div class="metrics"><div><b>0 ₽</b><span>отдельный бюджет разработки</span></div><div><b>Excel → web</b><span>данные превращены в сценарий заказа</span></div><div><b>HTML · CSS · JS</b><span>лёгкий рабочий стек</span></div></div>
+        <h1>E-commerce каталог<br><em>из товарной Excel-базы.</em></h1>
+        <p class="case-lead">Структура данных, интерфейс, поиск, реальные варианты товаров, избранное, корзина и подготовка заказа.</p>
+        <div class="metrics"><div><b>0 ₽</b><span>без отдельного бюджета на разработку</span></div><div><b>Excel → web</b><span>из данных в интерфейс</span></div><div><b>HTML · CSS · JS</b><span>без фреймворка</span></div></div>
         <div class="hero-actions"><a class="text-link" href="https://gkkm8bm7rn-eng.github.io/tetopt/" target="_blank" rel="noopener">Открыть рабочий проект <span>↗</span></a></div>
       </div>
       <div class="progressive-media case-hero-media media-forma" data-media>
@@ -37,15 +38,15 @@
     </section>
 
     <section class="case-summary forma-summary reveal-section">
-      <div><p class="eyebrow">THE TRANSFORMATION</p><h2>Не «сделать каталог».<br><em>Собрать рабочий сценарий.</em></h2></div>
-      <div class="story-steps"><article><span>01</span><h3>Данные</h3><p>Исходная таблица стала структурированной основой каталога.</p></article><article><span>02</span><h3>Интерфейс</h3><p>Категории, карточки, поиск и сортировка сделали ассортимент понятным.</p></article><article><span>03</span><h3>Заказ</h3><p>Избранное, корзина и подготовка обращения превратили каталог в инструмент продаж.</p></article></div>
+      <div><p class="eyebrow">PROJECT LOGIC</p><h2>От данных —<br><em>к заказу.</em></h2></div>
+      <div class="story-steps"><article><span>01</span><h3>Данные</h3><p>Excel превращён в структуру каталога.</p></article><article><span>02</span><h3>Интерфейс</h3><p>Ассортимент становится понятным и управляемым.</p></article><article><span>03</span><h3>Заказ</h3><p>Выбранные товары переходят в готовое обращение.</p></article></div>
     </section>
 
     <section class="case-section forma-light reveal-section">
       <div class="case-section-heading">
         <p class="eyebrow dark">01 · DATA</p>
-        <h2>Сначала —<br><em>правильная структура данных.</em></h2>
-        <p>Каталог опирается на точные товарные данные: реальные варианты, цены, характеристики и фотографии. Похожие названия не должны превращаться в несуществующие комбинации — интерфейс начинается с корректной модели данных.</p>
+        <h2>Сначала —<br><em>корректные данные.</em></h2>
+        <p>Каждый вариант товара сохраняет собственные цены, характеристики и фотографии. Похожие названия не объединяются в несуществующие комбинации.</p>
       </div>
       <div class="data-demo" aria-label="Схема превращения данных в интерфейс">
         <div class="data-sheet"><span>sourceId</span><span>model</span><span>price</span><span>category</span><b>921</b><b>Arena</b><b>—</b><b>office</b><b>1656</b><b>Stitch</b><b>—</b><b>chair</b><b>1688</b><b>Brighton</b><b>—</b><b>console</b></div>
@@ -55,23 +56,23 @@
     </section>
 
     <section class="case-section forma-dark reveal-section">
-      <div class="case-section-heading"><p class="eyebrow">02 · INTERFACE</p><h2>Ассортимент должен быть<br><em>понятен без инструкции.</em></h2><p>Поиск, основные категории, прямой выбор подкатегорий, сортировка, пагинация и реальные варианты товара собраны вокруг простого сценария: найти нужное, сравнить и не потерять выбранное.</p></div>
-      <div class="feature-grid"><article><span>01</span><h3>Поиск и категории</h3><p>Быстрое сужение большого ассортимента.</p></article><article><span>02</span><h3>Реальные варианты</h3><p>Цена, фото и характеристики меняются вместе с выбранным вариантом.</p></article><article><span>03</span><h3>Состояние каталога</h3><p>Возврат назад сохраняет категорию, поиск, сортировку и позицию.</p></article><article><span>04</span><h3>Адаптивность</h3><p>Каталог остаётся рабочим на телефоне, а не просто уменьшается.</p></article></div>
+      <div class="case-section-heading"><p class="eyebrow">02 · INTERFACE</p><h2>Ассортимент —<br><em>без лишней сложности.</em></h2><p>Поиск, категории, сортировка и варианты товара собраны вокруг одного сценария: найти, сравнить, сохранить.</p></div>
+      <div class="feature-grid"><article><span>01</span><h3>Поиск и категории</h3><p>Быстрое сужение ассортимента.</p></article><article><span>02</span><h3>Реальные варианты</h3><p>Цена, фото и характеристики связаны с выбранным вариантом.</p></article><article><span>03</span><h3>Состояние каталога</h3><p>Возврат сохраняет поиск, сортировку и позицию.</p></article><article><span>04</span><h3>Адаптивность</h3><p>Полноценный сценарий на мобильных устройствах.</p></article></div>
     </section>
 
     <section class="case-section order-section reveal-section">
-      <div class="case-section-heading"><p class="eyebrow dark">03 · ORDER FLOW</p><h2>Каталог заканчивается<br><em>не просмотром, а действием.</em></h2><p>Избранное, просмотренные товары и корзина сохраняются локально. Из корзины формируется готовое обращение менеджеру; общая ссылка может восстановить выбранные товары и количества.</p></div>
+      <div class="case-section-heading"><p class="eyebrow dark">03 · ORDER FLOW</p><h2>Из каталога —<br><em>к готовому обращению.</em></h2><p>Избранное и корзина сохраняются локально; из выбранных товаров формируется обращение менеджеру.</p></div>
       <div class="order-flow"><div><span>01</span><b>Выбрать</b><small>товар и вариант</small></div><i>→</i><div><span>02</span><b>Сохранить</b><small>избранное / корзина</small></div><i>→</i><div><span>03</span><b>Передать</b><small>готовое обращение</small></div></div>
     </section>
 
     <section class="case-section result-section reveal-section">
-      <div><p class="eyebrow">RESULT</p><h2>Простой стек.<br><em>Рабочий продукт.</em></h2></div>
-      <div><p>Forma Home вырос из электронного каталога в инструмент, который помогает человеку ориентироваться в ассортименте и подготовить заказ. Без фреймворка, без тяжёлой сборки и без отдельного бюджета на разработку.</p><a class="text-link" href="https://gkkm8bm7rn-eng.github.io/tetopt/" target="_blank" rel="noopener">Открыть Forma Home <span>↗</span></a></div>
+      <div><p class="eyebrow">RESULT</p><h2>Лёгкий стек.<br><em>Рабочий e-commerce.</em></h2></div>
+      <div><p>Каталог помогает ориентироваться в ассортименте и подготовить заказ без тяжёлой инфраструктуры.</p><a class="text-link" href="https://gkkm8bm7rn-eng.github.io/tetopt/" target="_blank" rel="noopener">Открыть Forma Home <span>↗</span></a></div>
     </section>
 
-    <section class="next-project reveal-section"><p class="eyebrow">OTHER PROJECT</p><a href="otutto.html"><span>01</span><strong>ОТУТТО</strong><em>Комплексная система для мебельного бренда →</em></a></section>
+    <section class="next-project reveal-section"><p class="eyebrow">OTHER PROJECT</p><a href="otutto.html"><span>01</span><strong>ОТУТТО</strong><em>Визуальная система для мебельного бренда →</em></a></section>
 
-    <section class="contact forma-contact" id="contact"><p class="mono">// available for remote projects</p><h2>Нужен понятный digital-продукт?</h2><a class="text-link" href="https://github.com/gkkm8bm7rn-eng" target="_blank" rel="noopener">Связаться / GitHub <span>↗</span></a></section>
+    <section class="contact forma-contact" id="contact"><p class="mono">// available for remote projects</p><h2>Открыта к похожим проектам.</h2><a class="text-link" href="https://github.com/gkkm8bm7rn-eng" target="_blank" rel="noopener">Связаться / GitHub <span>↗</span></a></section>
   </main>
   <footer><a href="index.html">← Портфолио</a><span>© 2026</span></footer>
 </body>
