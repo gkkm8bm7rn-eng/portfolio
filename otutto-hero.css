@@ -56,6 +56,22 @@
 }
 .otutto-hub-ecosystem em{color:#c5a47d}
 
+/* Preserve the compact four-photo preview on the storytelling card. */
+.source-mosaic{
+  display:grid!important;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap:2px;
+  background:#080a0d;
+}
+.source-mosaic img{
+  width:100%;
+  height:100%;
+  min-height:0;
+  object-fit:cover;
+}
+.case-card:hover .source-mosaic img{transform:none}
+
 @media(max-width:700px){
   .otutto-hub-hero{padding:50px 5vw 58px}
   .otutto-hub-hero .back-link{margin-bottom:46px}
