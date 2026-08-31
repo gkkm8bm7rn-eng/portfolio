@@ -1,0 +1,76 @@
+/* OTUTTO hub hero: hierarchy = meaning, navigation first */
+.otutto-hub-hero{
+  display:block;
+  min-height:auto;
+  padding:clamp(72px,10vh,118px) 5vw 82px;
+  background:radial-gradient(circle at 78% 18%,rgba(34,67,105,.42),transparent 31%),linear-gradient(125deg,#05080d,#0b1522 66%,#0b1119);
+}
+.otutto-hub-hero-inner{max-width:1180px}
+.otutto-hub-hero .back-link{display:inline-flex;margin-bottom:68px}
+.otutto-hub-hero .eyebrow{margin:0 0 18px}
+.otutto-hub-hero h1{
+  max-width:1060px;
+  margin:0;
+  font-size:clamp(60px,7vw,108px);
+  line-height:.88;
+  letter-spacing:-.055em;
+}
+.otutto-hero-case-links{
+  width:min(100%,760px);
+  margin:44px 0 54px;
+  border-top:1px solid var(--line-dark);
+}
+.otutto-hero-case-links a{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:22px;
+  padding:12px 0 11px;
+  border-bottom:1px solid var(--line-dark);
+  font-size:clamp(13px,1.25vw,17px);
+  line-height:1.35;
+  color:#d7d0c7;
+  transition:color .18s ease,border-color .18s ease,padding-left .18s ease;
+}
+.otutto-hero-case-links a:hover,.otutto-hero-case-links a:focus-visible{
+  color:#f0e7da;
+  border-color:rgba(197,164,125,.72);
+  padding-left:5px;
+}
+.otutto-hero-case-links b{
+  flex:0 0 auto;
+  font-family:var(--mono);
+  font-size:12px;
+  font-weight:400;
+  color:#c5a47d;
+}
+.otutto-hub-ecosystem{
+  max-width:860px;
+  margin:0;
+  font-family:var(--serif);
+  font-size:clamp(46px,5.4vw,82px);
+  font-weight:400;
+  line-height:.92;
+  letter-spacing:-.05em;
+  color:#f1ece5;
+}
+.otutto-hub-ecosystem em{color:#c5a47d}
+
+@media(max-width:700px){
+  .otutto-hub-hero{padding:50px 5vw 58px}
+  .otutto-hub-hero .back-link{margin-bottom:46px}
+  .otutto-hub-hero h1{
+    font-size:clamp(42px,11vw,52px);
+    line-height:.91;
+    letter-spacing:-.045em;
+    max-width:100%;
+  }
+  .otutto-hero-case-links{margin:34px 0 42px;width:100%}
+  .otutto-hero-case-links a{padding:11px 0 10px;font-size:14px;gap:14px}
+  .otutto-hero-case-links a:hover,.otutto-hero-case-links a:focus-visible{padding-left:0}
+  .otutto-hub-ecosystem{font-size:clamp(42px,12vw,56px);line-height:.91;max-width:100%}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .otutto-hero-case-links a{transition:none}
+}
