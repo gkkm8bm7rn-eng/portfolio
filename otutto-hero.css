@@ -9,37 +9,36 @@
 .otutto-hub-hero .back-link{display:inline-flex;margin-bottom:68px}
 .otutto-hub-hero>.otutto-hub-hero-inner>.eyebrow{margin:0 0 18px}
 .otutto-hub-hero h1{
-  max-width:1060px;
+  max-width:1100px;
   margin:0;
-  font-size:clamp(60px,7vw,108px);
-  line-height:.88;
-  letter-spacing:-.055em;
+  font-size:clamp(66px,7.7vw,118px);
+  line-height:.87;
+  letter-spacing:-.058em;
 }
-.otutto-hub-ecosystem{
-  max-width:930px;
-  margin:28px 0 0;
+.otutto-hub-subtitle{
+  max-width:800px;
+  margin:30px 0 0;
   font-family:var(--serif);
-  font-size:clamp(46px,5.2vw,80px);
+  font-size:clamp(28px,3vw,44px);
   font-weight:400;
-  line-height:.92;
-  letter-spacing:-.05em;
-  color:#f1ece5;
+  line-height:1;
+  letter-spacing:-.035em;
+  color:#d8d0c7;
 }
-.otutto-hub-ecosystem em{color:#c5a47d}
 .otutto-hero-directory{
   width:min(100%,820px);
-  margin-top:66px;
-  padding-top:22px;
+  margin-top:54px;
+  padding-top:20px;
   border-top:1px solid rgba(242,237,230,.16);
 }
-.otutto-hero-directory>.eyebrow{margin:0 0 15px}
+.otutto-hero-directory>.eyebrow{margin:0 0 13px}
 .otutto-hero-case-links{width:100%}
 .otutto-hero-case-links a{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:24px;
-  padding:12px 0;
+  gap:28px;
+  padding:13px 0;
   border-bottom:1px solid var(--line-dark);
   font-size:clamp(14px,1.3vw,18px);
   line-height:1.35;
@@ -48,29 +47,41 @@
 }
 .otutto-hero-case-links a:hover,.otutto-hero-case-links a:focus-visible{
   color:#fff8ef;
-  border-color:rgba(197,164,125,.78);
+  border-color:rgba(197,164,125,.82);
   padding-left:5px;
 }
-.otutto-hero-case-links b{
-  display:grid;
-  place-items:center;
-  flex:0 0 36px;
-  width:36px;
-  height:36px;
-  border:1px solid rgba(197,164,125,.7);
-  border-radius:50%;
-  font-family:var(--mono);
-  font-size:17px;
-  line-height:1;
-  font-weight:400;
-  color:#e6caa8;
-  background:rgba(197,164,125,.06);
-  transition:background .18s ease,color .18s ease,transform .18s ease;
+.case-link-arrow{
+  position:relative;
+  display:block;
+  flex:0 0 44px;
+  width:44px;
+  height:18px;
+  transition:transform .18s ease;
 }
-.otutto-hero-case-links a:hover b,.otutto-hero-case-links a:focus-visible b{
-  background:#c5a47d;
-  color:#0a0d11;
-  transform:translate(2px,-2px);
+.case-link-arrow::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:8px;
+  width:40px;
+  height:2px;
+  background:#d7b487;
+  border-radius:2px;
+}
+.case-link-arrow::after{
+  content:"";
+  position:absolute;
+  right:1px;
+  top:3px;
+  width:10px;
+  height:10px;
+  border-top:2px solid #d7b487;
+  border-right:2px solid #d7b487;
+  transform:rotate(45deg);
+  transform-origin:center;
+}
+.otutto-hero-case-links a:hover .case-link-arrow,.otutto-hero-case-links a:focus-visible .case-link-arrow{
+  transform:translateX(5px);
 }
 
 /* Preserve the compact four-photo preview on the storytelling card. */
@@ -91,25 +102,27 @@
 
 @media(max-width:700px){
   .otutto-hub-hero{padding:50px 5vw 62px}
-  .otutto-hub-hero .back-link{margin-bottom:46px}
+  .otutto-hub-hero .back-link{margin-bottom:44px}
   .otutto-hub-hero h1{
-    font-size:clamp(42px,11vw,52px);
-    line-height:.91;
-    letter-spacing:-.045em;
+    font-size:clamp(47px,12.3vw,59px);
+    line-height:.89;
+    letter-spacing:-.05em;
     max-width:100%;
   }
-  .otutto-hub-ecosystem{
-    margin-top:22px;
-    font-size:clamp(37px,10.2vw,48px);
-    line-height:.93;
+  .otutto-hub-subtitle{
+    margin-top:24px;
+    font-size:clamp(27px,7.1vw,34px);
+    line-height:.98;
     max-width:100%;
   }
-  .otutto-hero-directory{margin-top:48px;padding-top:18px;width:100%}
-  .otutto-hero-case-links a{padding:10px 0;font-size:14px;gap:14px}
+  .otutto-hero-directory{margin-top:44px;padding-top:17px;width:100%}
+  .otutto-hero-case-links a{padding:11px 0;font-size:14px;gap:18px}
   .otutto-hero-case-links a:hover,.otutto-hero-case-links a:focus-visible{padding-left:0}
-  .otutto-hero-case-links b{flex-basis:34px;width:34px;height:34px;font-size:16px}
+  .case-link-arrow{flex-basis:38px;width:38px;height:17px}
+  .case-link-arrow::before{width:34px;top:8px}
+  .case-link-arrow::after{width:9px;height:9px;top:4px}
 }
 
 @media(prefers-reduced-motion:reduce){
-  .otutto-hero-case-links a,.otutto-hero-case-links b{transition:none}
+  .otutto-hero-case-links a,.case-link-arrow{transition:none}
 }
