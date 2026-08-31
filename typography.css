@@ -1,0 +1,22 @@
+:root{
+  --serif:"Iowan Old Style","Baskerville","Palatino Linotype","Book Antiqua",Georgia,serif;
+}
+
+.home-hero h1,
+.case-hero h1,
+.section-heading h2,
+.case-section h2,
+.case-summary h2,
+.result-section h2,
+.project-copy h3,
+.scope-list h3,
+.expertise-grid h3{
+  text-wrap:balance;
+}
+
+.hero-lead,
+.case-lead,
+.case-section-heading>p:last-child,
+.project-copy>p:not(.eyebrow){
+  text-wrap:pretty;
+}
