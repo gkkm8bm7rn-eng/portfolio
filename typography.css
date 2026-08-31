@@ -20,3 +20,95 @@
 .project-copy>p:not(.eyebrow){
   text-wrap:pretty;
 }
+
+/* OTUTTO process: evidence of work, not a visual hero */
+.case-otutto .process-section{
+  display:grid;
+  grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);
+  gap:clamp(36px,6vw,96px);
+  align-items:start;
+}
+
+.case-otutto .process-section .case-section-heading{
+  max-width:560px;
+}
+
+.case-otutto .compact-process{
+  width:min(100%,780px);
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  align-self:start;
+  margin-top:8px;
+}
+
+.case-otutto .process-thumb{
+  min-width:0;
+  aspect-ratio:4/3;
+  border:1px solid rgba(242,237,230,.12);
+  background:#0c1015;
+}
+
+.case-otutto .process-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.case-otutto .process-thumb figcaption{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:3;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:9px 10px;
+  background:linear-gradient(180deg,transparent,rgba(5,8,12,.88));
+  font-size:8px;
+  line-height:1.2;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#d1c8bd;
+}
+
+.case-otutto .process-thumb figcaption b{
+  color:#c5a47d;
+  font-weight:600;
+}
+
+.case-otutto .process-caption{
+  grid-column:2;
+  margin:4px 0 0;
+  font-family:var(--mono);
+  font-size:8px;
+  line-height:1.5;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#756f68;
+}
+
+@media(max-width:900px){
+  .case-otutto .process-section{
+    grid-template-columns:1fr;
+  }
+  .case-otutto .compact-process{
+    width:min(100%,720px);
+  }
+  .case-otutto .process-caption{
+    grid-column:1;
+  }
+}
+
+@media(max-width:560px){
+  .case-otutto .compact-process{
+    grid-template-columns:repeat(3,minmax(150px,1fr));
+    overflow-x:auto;
+    padding-bottom:6px;
+    scroll-snap-type:x proximity;
+  }
+  .case-otutto .process-thumb{
+    scroll-snap-align:start;
+  }
+}
