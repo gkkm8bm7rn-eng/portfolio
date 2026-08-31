@@ -57,6 +57,72 @@
     ['zh', '中文', '中文']
   ];
   const supported = new Set(languages.map(([code]) => code));
+  const supplementalTranslations = {
+    en: {
+      text: {
+        'Светлана Чукова': 'Svetlana Chukova',
+        'СВЕТЛАНА ЧУКОВА': 'SVETLANA CHUKOVA',
+        '← Все проекты': '← All projects',
+        '← Портфолио': '← Portfolio',
+        'Структура, подача и лёгкая реализация портфолио, которое само работает как демонстрация специалиста.': 'Structure, presentation and lightweight implementation of a portfolio that itself demonstrates the professional behind it.',
+        'Portfolio websites · visual direction · AI workflows · e-commerce · коммерческая подача': 'Portfolio websites · visual direction · AI workflows · e-commerce · commercial presentation'
+      },
+      attributes: { 'Проекты портфолио': 'Portfolio projects' },
+      ui: { current: 'Choose language', menu: 'Site language' }
+    },
+    de: {
+      text: {
+        'Светлана Чукова': 'Svetlana Chukova',
+        'СВЕТЛАНА ЧУКОВА': 'SVETLANA CHUKOVA',
+        '← Все проекты': '← Alle Projekte',
+        '← Портфолио': '← Portfolio',
+        'Структура, подача и лёгкая реализация портфолио, которое само работает как демонстрация специалиста.': 'Struktur, Präsentation und schlanke Umsetzung von Portfolios, die selbst als Kompetenznachweis funktionieren.',
+        'Portfolio websites · visual direction · AI workflows · e-commerce · коммерческая подача': 'Portfolio-Websites · Visual Direction · KI-Workflows · E-Commerce · kommerzielle Präsentation'
+      },
+      attributes: { 'Проекты портфолио': 'Portfolio-Projekte' },
+      ui: { current: 'Sprache wählen', menu: 'Website-Sprache' }
+    },
+    it: {
+      text: {
+        'Светлана Чукова': 'Svetlana Chukova',
+        'СВЕТЛАНА ЧУКОВА': 'SVETLANA CHUKOVA',
+        '← Все проекты': '← Tutti i progetti',
+        '← Портфолио': '← Portfolio',
+        'Структура, подача и лёгкая реализация портфолио, которое само работает как демонстрация специалиста.': 'Struttura, presentazione e realizzazione leggera di portfolio che diventano essi stessi una dimostrazione delle competenze.',
+        'Portfolio websites · visual direction · AI workflows · e-commerce · коммерческая подача': 'Siti portfolio · visual direction · workflow AI · e-commerce · presentazione commerciale'
+      },
+      attributes: { 'Проекты портфолио': 'Progetti del portfolio' },
+      ui: { current: 'Scegli la lingua', menu: 'Lingua del sito' }
+    },
+    fr: {
+      text: {
+        'Светлана Чукова': 'Svetlana Chukova',
+        'СВЕТЛАНА ЧУКОВА': 'SVETLANA CHUKOVA',
+        '← Все проекты': '← Tous les projets',
+        '← Портфолио': '← Portfolio',
+        'Структура, подача и лёгкая реализация портфолио, которое само работает как демонстрация специалиста.': 'Structure, présentation et réalisation légère de portfolios qui deviennent eux-mêmes une démonstration du savoir-faire.',
+        'Portfolio websites · visual direction · AI workflows · e-commerce · коммерческая подача': 'Sites portfolio · direction visuelle · workflows IA · e-commerce · présentation commerciale'
+      },
+      attributes: { 'Проекты портфолио': 'Projets du portfolio' },
+      ui: { current: 'Choisir la langue', menu: 'Langue du site' }
+    },
+    zh: {
+      text: {
+        'Светлана Чукова': 'Svetlana Chukova',
+        'СВЕТЛАНА ЧУКОВА': 'SVETLANA CHUKOVA',
+        '← Все проекты': '← 所有项目',
+        '← Портфолио': '← 作品集',
+        'Структура, подача и лёгкая реализация портфолио, которое само работает как демонстрация специалиста.': '为作品集设计结构、呈现方式并进行轻量化实现，让作品集本身就能成为专业能力的展示。',
+        'Portfolio websites · visual direction · AI workflows · e-commerce · коммерческая подача': '作品集网站 · 视觉指导 · AI 工作流 · 电商 · 商业呈现'
+      },
+      attributes: { 'Проекты портфолио': '作品集项目' },
+      ui: { current: '选择语言', menu: '网站语言' }
+    }
+  };
+  const languageUi = {
+    ru: { current: 'Выбрать язык', menu: 'Язык сайта' },
+    ...Object.fromEntries(Object.entries(supplementalTranslations).map(([code, value]) => [code, value.ui]))
+  };
   const textSources = new WeakMap();
   const attributeSources = new WeakMap();
   const localeCache = new Map();
@@ -175,9 +241,18 @@
     if (metaDescription) metaDescription.setAttribute('content', originalMeta.description);
   }
 
-  function applyDictionary(locale) {
-    const dictionary = { ...(locale.common || {}), ...((locale.pages && locale.pages[pageKey]) || {}) };
-    const attrs = { ...(locale.attributes || {}), ...((locale.pageAttributes && locale.pageAttributes[pageKey]) || {}) };
+  function applyDictionary(locale, lang) {
+    const supplemental = supplementalTranslations[lang] || {};
+    const dictionary = {
+      ...(locale.common || {}),
+      ...((locale.pages && locale.pages[pageKey]) || {}),
+      ...(supplemental.text || {})
+    };
+    const attrs = {
+      ...(locale.attributes || {}),
+      ...((locale.pageAttributes && locale.pageAttributes[pageKey]) || {}),
+      ...(supplemental.attributes || {})
+    };
 
     textNodes.forEach((node) => {
       const original = textSources.get(node);
@@ -202,8 +277,10 @@
 
   function updateSwitcher(lang) {
     const selected = languages.find(([code]) => code === lang) || languages[0];
+    const ui = languageUi[lang] || languageUi.ru;
     currentButton.textContent = selected[1];
-    currentButton.setAttribute('aria-label', lang === 'ru' ? 'Выбрать язык' : 'Change language');
+    currentButton.setAttribute('aria-label', ui.current);
+    menu.setAttribute('aria-label', ui.menu);
     menu.querySelectorAll('.language-option').forEach((button) => {
       button.setAttribute('aria-current', button.dataset.lang === lang ? 'true' : 'false');
     });
@@ -216,7 +293,7 @@
         restoreRussian();
       } else {
         const locale = await getLocale(lang);
-        applyDictionary(locale);
+        applyDictionary(locale, lang);
       }
       document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
       updateSwitcher(lang);
