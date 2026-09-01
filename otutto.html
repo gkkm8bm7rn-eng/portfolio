@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="typography.css?v=20260831-process">
   <link rel="stylesheet" href="otutto-system.css?v=20260831-hub2">
   <link rel="stylesheet" href="otutto-hero.css?v=20260831-nav3">
-  <link rel="stylesheet" href="refinement.css?v=20260901-type">
+  <link rel="stylesheet" href="refinement.css?v=20260901-clean2">
   <script defer src="app.js?v=20260831-ru-copy"></script>
   <noscript><style>.reveal-section{opacity:1!important;transform:none!important}.progressive-media>[data-progressive]{opacity:1!important}.themed-loader,.media-placeholder{display:none!important}</style></noscript>
 </head>
@@ -21,7 +21,7 @@
     </a>
     <nav aria-label="Навигация">
       <a href="index.html#projects">Все проекты</a>
-      <a href="#cases">Кейсы ОТУТТО</a>
+      <a href="#case-links">Кейсы ОТУТТО</a>
       <a href="forma-home.html">Forma Home</a>
     </nav>
   </header>
@@ -34,7 +34,7 @@
         <h1>Единая система<br><em>решений для бренда.</em></h1>
         <p class="otutto-hub-subtitle">Пять самостоятельных кейсов.</p>
 
-        <div class="otutto-hero-directory">
+        <div class="otutto-hero-directory" id="case-links">
           <p class="eyebrow">ВЫБРАТЬ КЕЙС</p>
           <nav class="otutto-hero-case-links" aria-label="Пять кейсов ОТУТТО">
             <a href="otutto-visual.html"><span>Визуализация продукта</span><i class="case-link-arrow" aria-hidden="true"></i></a>
@@ -47,53 +47,9 @@
       </div>
     </section>
 
-    <section class="otutto-cases" id="cases">
-      <div class="otutto-cases-head">
-        <div><p class="eyebrow">КЕЙСЫ ОТУТТО</p><h2>Выбрать кейс.</h2></div>
-        <p>Каждый раздел показывает отдельную задачу, результат и тип работы.</p>
-      </div>
-
-      <div class="case-directory">
-        <a class="case-card" href="otutto-storytelling.html">
-          <div class="case-card-media source-mosaic" aria-label="Четыре реальные фотографии, с которых началась визуальная история ОТУТТО">
-            <img src="assets/otutto-story-radius.jpg" alt="Радиусный диван в производстве" loading="lazy" decoding="async">
-            <img src="assets/otutto-story-leather-workshop.jpg" alt="Кожаный диван в производстве" loading="lazy" decoding="async">
-            <img src="assets/otutto-story-leather-interior.jpg" alt="Кожаный диван в готовом интерьере" loading="lazy" decoding="async">
-            <img src="assets/otutto-story-bed-workshop.jpg" alt="Сборка основания кровати" loading="lazy" decoding="async">
-          </div>
-          <div class="case-card-copy"><div class="case-card-top"><b>01</b><span>Storytelling производства</span></div><h3>От идеи до реализации</h3><p>Из четырёх реальных фотографий — в визуальную историю возможностей производства.</p></div><span class="case-card-arrow">↗</span>
-        </a>
-
-        <a class="case-card" href="otutto-visual.html">
-          <div class="case-card-media"><img src="assets/otutto-final.jpeg" alt="Финальная визуализация индивидуального дивана ОТУТТО" loading="lazy" decoding="async"></div>
-          <div class="case-card-copy"><div class="case-card-top"><b>02</b><span>Визуализация продукта</span></div><h3>Визуализация продукта</h3><p>От простого исходника до согласованного образа будущего изделия.</p></div><span class="case-card-arrow">↗</span>
-        </a>
-
-        <a class="case-card" href="otutto-commercial.html">
-          <div class="case-card-media"><img src="assets/palermo-offer.jpeg" alt="Коммерческое предложение ОТУТТО" loading="lazy" decoding="async"></div>
-          <div class="case-card-copy"><div class="case-card-top"><b>03</b><span>Коммерческие материалы</span></div><h3>Коммерческие материалы</h3><p>Подача продукта, цены и условий в понятном для клиента формате.</p></div><span class="case-card-arrow">↗</span>
-        </a>
-
-        <a class="case-card" href="otutto-gpt.html">
-          <div class="case-card-media case-card-graphic" aria-hidden="true"><div class="price-stack"><span>прайс → модули → материал</span><i></i><i></i><i></i><b>959 744 ₽</b><span>проверка → итог</span></div></div>
-          <div class="case-card-copy"><div class="case-card-top"><b>04</b><span>AI-процесс</span></div><h3>GPT для расчёта стоимости</h3><p>Расчёт сложных модульных конфигураций по мебельному прайсу.</p></div><span class="case-card-arrow">↗</span>
-        </a>
-
-        <a class="case-card" href="otutto-production.html">
-          <div class="case-card-media case-card-graphic" aria-hidden="true"><div class="wireframe"></div></div>
-          <div class="case-card-copy"><div class="case-card-top"><b>05</b><span>3D и производство</span></div><h3>3D и производственные задачи</h3><p>Модели и материалы для согласования конструкции и производства.</p></div><span class="case-card-arrow">↗</span>
-        </a>
-      </div>
-    </section>
-
-    <section class="otutto-system-note reveal-section">
-      <p class="eyebrow">СИСТЕМА</p>
-      <p>ОТУТТО — не один проект, а система решений вокруг продукта, клиента и производства.</p>
-    </section>
-
     <section class="next-project reveal-section">
       <p class="eyebrow">ДРУГОЙ ПРОЕКТ</p>
-      <a href="forma-home.html"><span>02</span><strong>Forma Home</strong><em>E-commerce каталог из Excel →</em></a>
+      <a href="forma-home.html"><span>02</span><strong>Forma Home</strong><em>E-commerce каталог из Excel</em><i class="ui-diagonal-arrow" aria-hidden="true"></i></a>
     </section>
   </main>
   <footer><a href="index.html">← Портфолио</a><span>© 2026</span></footer>
