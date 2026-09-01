@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap');
+
+/* Final visual refinement layer.
+   Purpose: controlled typography, readable small text, calmer editorial accents. */
+:root{
+  --sans:"Manrope",Arial,sans-serif;
+  --serif:"Source Serif 4",Georgia,serif;
+}
+
+body{
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.55;
+}
+
+h1,h2,h3,.brand strong,.home-route-link strong,.project-copy h3,
+.otutto-case-title,.case-card h3,.capability-grid h3,.production-list strong{
+  font-family:var(--serif);
+  font-optical-sizing:auto;
+}
+
+/* Readability floor: secondary text stays secondary, but never microscopic. */
+.eyebrow,.mono{
+  font-size:12px;
+  line-height:1.45;
+  letter-spacing:.1em;
+}
+.brand strong{font-size:22px}
+.brand span{font-size:11px;line-height:1.35;letter-spacing:.08em}
+.site-header nav{font-size:12px;letter-spacing:.055em}
+.text-link,.back-link{
+  min-height:40px;
+  font-size:13px;
+  line-height:1.35;
+  letter-spacing:.06em;
+}
+footer{font-size:11px;line-height:1.45;letter-spacing:.09em}
+
+.hero-lead,.case-lead,.subcase-lead{
+  font-size:16px;
+  line-height:1.68;
+}
+.project-copy>p:not(.eyebrow){font-size:15px;line-height:1.7}
+.project-index{font-size:16px}
+.project-action{font-size:13px;letter-spacing:.06em}
+.tag-row li{font-size:12px}
+.expertise-grid p{font-size:14px;line-height:1.65}
+.contact>p:not(.mono):not(.eyebrow){font-size:14px;line-height:1.65}
+.loader-otutto span,.loader-forma span{font-size:11px}
+
+.home-route-head,.project-card-topline{font-size:11px;line-height:1.4}
+.home-route-link>span{font-size:11px}
+
+.scope-list span,.story-steps span,.feature-grid span,
+.process-note>span,.calc-top span,.capability-grid span,
+.subcase-links b,.story-chapter>header>span{
+  font-size:11px;
+}
+.scope-list p,.process-note p,.capability-grid p,.production-list span{
+  font-size:14px;
+  line-height:1.65;
+}
+.case-section-heading>p:last-child,.subcase-heading>p:last-child{
+  font-size:15px;
+  line-height:1.68;
+}
+.terminal-lines code{font-size:12px}
+.calc-request{font-size:13px;line-height:1.6}
+.subcase-path{font-size:12px;line-height:1.4}
+.originals-sheet figcaption,.story-sequence figcaption,
+.subcase-source-strip figcaption,.story-strip figcaption{
+  font-size:11px;
+  line-height:1.45;
+  letter-spacing:.045em;
+}
+.story-chapter header p{font-size:13px;line-height:1.55}
+.story-provenance{font-size:13px;line-height:1.65}
+.story-result>p:last-child{font-size:15px;line-height:1.68}
+.subcase-links a{font-size:13px;line-height:1.45}
+.case-card-top{font-size:11px;line-height:1.4}
+.case-card p{font-size:14px;line-height:1.62}
+.otutto-cases-head>p{font-size:14px;line-height:1.62}
+.story-steps-inline span{font-size:12px;line-height:1.5}
+
+/* Cyrillic-friendly editorial spacing: still compact, no near-collisions. */
+.home-hero h1,.case-hero h1,.section-heading h2,.case-section h2,
+.case-summary h2,.result-section h2,.project-copy h3,.contact h2,
+.otutto-hub-hero h1,.otutto-case-title,.subcase-heading h2,
+.subcase-statement p,.story-result h2,.otutto-cases-head h2{
+  letter-spacing:-.018em;
+}
+.home-hero h1,.case-hero h1,.otutto-hub-hero h1,.otutto-case-title{
+  line-height:.94;
+}
+.section-heading h2,.case-section h2,.case-summary h2,.result-section h2,
+.subcase-heading h2,.subcase-statement p,.story-result h2,.project-copy h3{
+  line-height:.98;
+}
+
+/* Stop repeating the same gold-italic formula everywhere. */
+.home-hero h1 em,.section-heading h2 em,.case-hero h1 em,
+.case-section h2 em,.case-summary h2 em,.result-section h2 em,
+.contact h2 em,.otutto-case-title em,.subcase-heading h2 em,
+.subcase-statement em,.story-result h2 em,.otutto-case-title em{
+  color:inherit;
+  font-style:normal;
+}
+
+/* Three deliberately different accent behaviours instead of one universal template. */
+.home-page .home-hero h1 em{
+  color:#c5a47d;
+  font-style:normal;
+}
+.case-forma .case-hero h1 em{
+  color:#c5a47d;
+  font-style:normal;
+  font-size:.88em;
+}
+.otutto-hub .otutto-hub-hero h1 em{
+  color:#c99d6e;
+  font-style:italic;
+}
+
+/* OTUTTO hub: meaning first, links second. */
+.otutto-hub-hero h1{
+  font-size:clamp(64px,7.6vw,116px);
+  max-width:1080px;
+}
+.otutto-hub-subtitle{
+  font-family:var(--sans);
+  font-size:clamp(24px,2.35vw,34px);
+  font-weight:400;
+  line-height:1.3;
+  letter-spacing:-.01em;
+  color:#d1cbc3;
+}
+.otutto-hero-directory{width:min(100%,860px)}
+.otutto-hero-case-links a{
+  min-height:54px;
+  padding:12px 0;
+  font-size:clamp(16px,1.35vw,20px);
+  line-height:1.35;
+}
+
+/* Diagonal, substantial navigation arrow — graphic sign, not a button. */
+.case-link-arrow{
+  position:relative;
+  display:block;
+  flex:0 0 38px;
+  width:38px;
+  height:38px;
+  transition:transform .18s ease;
+}
+.case-link-arrow::before{
+  content:"";
+  position:absolute;
+  left:4px;
+  top:18px;
+  width:30px;
+  height:3px;
+  background:#d7a26b;
+  border-radius:3px;
+  transform:rotate(-45deg);
+  transform-origin:center;
+}
+.case-link-arrow::after{
+  content:"";
+  position:absolute;
+  right:1px;
+  top:2px;
+  width:12px;
+  height:12px;
+  border-top:3px solid #d7a26b;
+  border-right:3px solid #d7a26b;
+  transform:none;
+}
+.otutto-hero-case-links a:hover .case-link-arrow,
+.otutto-hero-case-links a:focus-visible .case-link-arrow{
+  transform:translate(3px,-3px);
+}
+.case-card-arrow{
+  font-family:var(--sans);
+  font-size:24px;
+  font-weight:600;
+  color:#d7a26b;
+}
+
+/* Subcases become calmer: evidence and content carry the emphasis. */
+.subcase-heading h2 em,.otutto-case-title em,.subcase-statement em,
+.story-result h2 em{
+  color:inherit;
+  font-style:normal;
+}
+.subcase-heading h2{font-size:clamp(38px,4.2vw,62px)}
+.capability-grid h3{font-size:clamp(26px,2.15vw,32px);line-height:1.08}
+
+@media(max-width:700px){
+  .eyebrow,.mono{font-size:11.5px;letter-spacing:.085em}
+  .brand strong{font-size:20px}
+  .brand span{font-size:10.5px}
+  .site-header nav{font-size:11px}
+  .text-link,.back-link{font-size:12.5px}
+  .hero-lead,.case-lead,.subcase-lead{font-size:15px}
+  .project-copy>p:not(.eyebrow),.case-section-heading>p:last-child,
+  .subcase-heading>p:last-child,.story-result>p:last-child{font-size:14.5px}
+  .otutto-hub-hero h1{font-size:clamp(45px,12vw,57px);line-height:.96}
+  .otutto-hub-subtitle{font-size:clamp(22px,6.2vw,29px);line-height:1.28}
+  .otutto-hero-case-links a{font-size:15px;min-height:52px}
+  .case-link-arrow{flex-basis:34px;width:34px;height:34px}
+  .case-link-arrow::before{left:3px;top:16px;width:27px;height:3px}
+  .case-link-arrow::after{width:11px;height:11px;top:2px}
+  .case-card p,.capability-grid p,.production-list span{font-size:13.5px}
+  .subcase-links a{font-size:12.5px}
+  .originals-sheet figcaption,.story-sequence figcaption,
+  .subcase-source-strip figcaption,.story-strip figcaption{font-size:10.5px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .case-link-arrow{transition:none}
+}
