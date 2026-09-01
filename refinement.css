@@ -56,7 +56,8 @@ footer{font-size:11px;line-height:1.45;letter-spacing:.09em}
 .subcase-links b,.story-chapter>header>span{
   font-size:11px;
 }
-.scope-list p,.process-note p,.capability-grid p,.production-list span{
+.scope-list p,.process-note p,.capability-grid p,.production-list span,
+.story-steps p,.feature-grid p{
   font-size:14px;
   line-height:1.65;
 }
@@ -66,6 +67,12 @@ footer{font-size:11px;line-height:1.45;letter-spacing:.09em}
 }
 .terminal-lines code{font-size:12px}
 .calc-request{font-size:13px;line-height:1.6}
+.calc-table div{font-size:13px;line-height:1.45}
+.calc-total span{font-size:11.5px}
+.metrics span{font-size:12px;line-height:1.45}
+.data-sheet span,.data-sheet b,.mini-product-grid span{font-size:11.5px;line-height:1.4}
+.order-flow span{font-size:11.5px}
+.order-flow small{font-size:12.5px;line-height:1.45}
 .subcase-path{font-size:12px;line-height:1.4}
 .originals-sheet figcaption,.story-sequence figcaption,
 .subcase-source-strip figcaption,.story-strip figcaption{
@@ -81,6 +88,8 @@ footer{font-size:11px;line-height:1.45;letter-spacing:.09em}
 .case-card p{font-size:14px;line-height:1.62}
 .otutto-cases-head>p{font-size:14px;line-height:1.62}
 .story-steps-inline span{font-size:12px;line-height:1.5}
+.next-project>a span{font-size:11.5px}
+.next-project>a em{font-size:12px;line-height:1.5;letter-spacing:.04em}
 
 /* Cyrillic-friendly editorial spacing: still compact, no near-collisions. */
 .home-hero h1,.case-hero h1,.section-heading h2,.case-section h2,
