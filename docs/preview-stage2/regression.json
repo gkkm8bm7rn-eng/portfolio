@@ -1,0 +1,435 @@
+{
+  "browserChecks": 28,
+  "axeChecks": 16,
+  "issues": [],
+  "results": [
+    {
+      "width": 1440,
+      "page": "projects",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 825,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "price",
+      "overflow": false,
+      "broken": [],
+      "prices": [
+        "от 30 000 ₽",
+        "от 50 000 ₽",
+        "от 30 000 ₽",
+        "от 50 000 ₽",
+        "от 25 000 ₽",
+        "индивидуально"
+      ],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 3798,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "otutto",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 2571,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "forma-home",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 2175,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "materials",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 1640,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "silence",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 1756,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "linked-helper",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [],
+      "mainText": 1010,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/projects",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 843,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/price",
+      "overflow": false,
+      "broken": [],
+      "prices": [
+        "from 30 000 ₽",
+        "from 50 000 ₽",
+        "from 30 000 ₽",
+        "from 50 000 ₽",
+        "from 25 000 ₽",
+        "Quoted individually"
+      ],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 3787,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/otutto",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 2621,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/forma-home",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 2173,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/materials",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 1717,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/silence",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 1811,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "page": "en/linked-helper",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [],
+      "mainText": 992,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "projects",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 825,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "price",
+      "overflow": false,
+      "broken": [],
+      "prices": [
+        "от 30 000 ₽",
+        "от 50 000 ₽",
+        "от 30 000 ₽",
+        "от 50 000 ₽",
+        "от 25 000 ₽",
+        "индивидуально"
+      ],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 3798,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "otutto",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 2571,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "forma-home",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 2175,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "materials",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 1640,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "silence",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D1%81%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B5%D0%B9.",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8",
+        "mailto:sherxanova@gmail.com?subject=%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D0%B8"
+      ],
+      "mainText": 1756,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "linked-helper",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [],
+      "mainText": 1010,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/projects",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 843,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/price",
+      "overflow": false,
+      "broken": [],
+      "prices": [
+        "from 30 000 ₽",
+        "from 50 000 ₽",
+        "from 30 000 ₽",
+        "from 50 000 ₽",
+        "from 25 000 ₽",
+        "Quoted individually"
+      ],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 3787,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/otutto",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 2621,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/forma-home",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 2173,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/materials",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 1717,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/silence",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [
+        "https://wa.me/79054076340?text=Hello%21%20I%20would%20like%20to%20discuss%20a%20project%20with%20Design%20Studio.",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio",
+        "mailto:sherxanova@gmail.com?subject=Project%20inquiry%20%E2%80%94%20Design%20Studio"
+      ],
+      "mainText": 1811,
+      "runtime": [],
+      "violations": []
+    },
+    {
+      "width": 390,
+      "page": "en/linked-helper",
+      "overflow": false,
+      "broken": [],
+      "prices": [],
+      "contacts": [],
+      "mainText": 992,
+      "runtime": [],
+      "violations": []
+    }
+  ]
+}
