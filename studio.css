@@ -158,3 +158,17 @@ html,body{background:#e8e8e3;color:#26383f}
 .mobile-menu nav a[aria-current=page]{color:#4c675c}
 .skip-link{background:#26383f;color:#fff}
 a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c}
+
+
+/* Digital-first project previews: editorial thumbnail built from the real landing concept. */
+.project-image.linked-helper-thumb{display:flex;flex-direction:column;justify-content:space-between;position:relative;isolation:isolate;box-sizing:border-box;padding:clamp(20px,3vw,42px);background:radial-gradient(circle at 85% 24%,rgba(168,148,255,.50),transparent 50%),linear-gradient(145deg,#f7f5ff 0%,#e8e4ff 70%,#d8d3f5 100%);color:#241e43;border:1px solid #d6d0ef;text-decoration:none}
+.lh-thumb-brandrow{display:flex;align-items:center;gap:11px;position:relative;z-index:1}
+.lh-thumb-logo{display:inline-flex;align-items:center;justify-content:center;width:39px;height:39px;flex:none;border-radius:12px;background:#6f57e9;color:#fff;font:700 14px/1 system-ui,sans-serif;letter-spacing:-.03em}
+.lh-thumb-wordmark{color:#41375c;font:600 clamp(10px,1.1vw,13px)/1.4 system-ui,sans-serif}
+.lh-thumb-body{display:flex;flex-direction:column;align-items:flex-start;gap:16px;position:relative;z-index:1}
+.lh-thumb-eyebrow{font:700 10px/1.4 system-ui,sans-serif;letter-spacing:.14em;color:#665794}
+.lh-thumb-body strong{font:700 clamp(26px,3vw,49px)/1.08 system-ui,sans-serif;letter-spacing:-.045em;color:#211947}
+.lh-thumb-flow{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.lh-thumb-flow>span{background:rgba(255,255,255,.83);border:1px solid #d8d0f6;border-radius:50px;padding:7px 9px;color:#554887;font:600 10px/1.2 system-ui,sans-serif}
+.project-demo-link{margin-left:19px}
+@media(max-width:700px){.project-image.linked-helper-thumb{padding:25px}.lh-thumb-body strong{font-size:clamp(28px,8vw,44px)}.project-demo-link{margin-left:15px}}
