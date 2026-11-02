@@ -1,0 +1,61 @@
+{
+  "services_exactly_identical": true,
+  "pages": [
+    {
+      "file": "projects.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "price.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "otutto.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "forma-home.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "materials.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "linked-helper.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "silence.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/projects.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/price.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/otutto.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/forma-home.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/materials.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/linked-helper.html",
+      "main_identical_except_author_place": true
+    },
+    {
+      "file": "en/silence.html",
+      "main_identical_except_author_place": true
+    }
+  ]
+}
