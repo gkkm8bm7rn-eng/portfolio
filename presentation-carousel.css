@@ -57,3 +57,66 @@
 .presentation-deck__modal-zoom-help{display:none}
 }
 @media(prefers-reduced-motion:reduce){.presentation-deck__viewport{scroll-behavior:auto}.presentation-deck__progress>span{transition:none}}
+
+
+/* Author-supplied original: 10 vertical PDF pages, exactly as designed. */
+.presentation-deck__paper--pdf{
+  aspect-ratio:1024 / 1535;
+  width:min(100%,660px);
+  margin-inline:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#eee7df;
+  border:1px solid rgba(37,38,34,.09);
+  overflow:hidden;
+}
+.presentation-deck__paper--pdf img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  object-fit:contain;
+  object-position:center;
+  color:transparent;
+}
+.presentation-deck__paper--pdf img:not([src]){visibility:hidden}
+.presentation-deck__loading{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  color:#67716d;
+  font:400 13px/1.5 system-ui,sans-serif;
+  background:#eee7df;
+}
+.presentation-deck__paper--pdf.is-ready .presentation-deck__loading{display:none}
+.presentation-deck__paper--pdf.is-error .presentation-deck__loading{color:#653e33}
+.presentation-deck__pdf-link{
+  display:inline-block;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  margin-left:7px;
+  color:inherit;
+}
+.presentation-deck__modal-card{
+  width:min(100%,50vh);
+  width:min(100%,50dvh);
+  max-height:100%;
+  aspect-ratio:1024 / 1535;
+}
+.presentation-deck__modal-card .presentation-deck__paper--pdf{
+  width:100%;
+  height:100%;
+  max-width:none;
+  border:0;
+}
+@media(max-width:740px){
+  .presentation-deck__paper--pdf{width:100%}
+  .presentation-deck__modal-card{width:min(100%,50dvh)}
+  .presentation-deck__pdf-link{display:block;margin-left:0;margin-top:6px}
+}
