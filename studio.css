@@ -111,3 +111,50 @@ h1,h2,h3{overflow-wrap:anywhere}
 @media(prefers-reduced-motion:reduce){.menu-dialog[open]{animation:none}.desktop-nav a::after{transition:none}}
 /* The no-JavaScript menu keeps contrast when opened over the light cover. */
 .mobile-menu nav{color:var(--ivory)}
+
+
+/* Light editorial identity — shared by all Russian and English pages.
+   Keep the art-cover palette consistent through projects, cases and pricing. */
+:root{
+ --navy:#e8e8e3;
+ --navy-dark:#e2e3de;
+ --navy-soft:#dfe1dc;
+ --paper:#f1f0ea;
+ --ink:#26383f;
+ --ivory:#26383f;
+ --muted:#58676c;
+ --sage:#4c675c;
+ --line:#c8d0cb;
+ --light-line:#c8d0cb;
+ color-scheme:light;
+}
+html,body{background:#e8e8e3;color:#26383f}
+::selection{background:#b8c8bf;color:#26383f}
+.site-header{background:#e8e8e3;color:#26383f}
+.site-header .brand small,.desktop-nav a,.languages a{color:#536168}
+.desktop-nav a:is(:hover,[aria-current]),.languages a[aria-current]{color:#26383f}
+.project-image,.case-cover{background:#dfe1dc}
+.project-card .project-meta,.project-card p,.project-link{color:#58676c}
+.project-link{border-bottom-color:#899994}
+.project-card:hover .project-link{border-bottom-color:#26383f}
+.eyebrow,.hero-kicker,.project-meta,.case-facts dt{color:#4c675c}
+.button{background:#26383f;border-color:#26383f;color:#f1f0ea}
+.button:hover{background:#40584e;border-color:#40584e;color:#fff}
+.button.secondary{background:transparent;color:#26383f;border-color:#8e9d96}
+.button.secondary:hover{background:#d8ded7;border-color:#4c675c;color:#26383f}
+.text-link:hover,.site-footer a:hover,.related-projects a:hover{color:#4c675c}
+.silence-feature{background:#f1f0ea;color:#26383f}
+.silence-copy .hero-kicker{color:#4c675c}
+.services-preview article,.studio-note,.case-facts,.case-result,.related-projects,.price-item,.price-cta{border-color:#c8d0cb}
+.contact-section{background:#e2e3de;color:#26383f}
+.contact-section.wrap>.hero-kicker{color:#4c675c}
+.site-footer{background:#e2e3de;color:#58676c}
+.case-cover figcaption{background:#e8e8e3;color:#58676c}
+.price-value{color:#4c675c}
+.scope-grid h3{color:#26383f}
+.menu-dialog,.menu-dialog::backdrop{background:#e8e8e3;color:#26383f;color-scheme:light}
+.menu-dialog nav>a[aria-current]{color:#4c675c}
+.mobile-menu nav{background:#e8e8e3;color:#26383f;box-shadow:0 18px 25px rgba(38,56,63,.10)}
+.mobile-menu nav a[aria-current=page]{color:#4c675c}
+.skip-link{background:#26383f;color:#fff}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c}
