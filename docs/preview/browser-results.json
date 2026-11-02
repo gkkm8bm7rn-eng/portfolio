@@ -1,0 +1,342 @@
+{
+  "pages": 48,
+  "reports": [
+    {
+      "width": 1440,
+      "route": "index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "От материала\nк образу\nи продукту."
+    },
+    {
+      "width": 1440,
+      "route": "projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Предметное.\nИ цифровое."
+    },
+    {
+      "width": 1440,
+      "route": "price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Понятный объём.\nОткрытые цены."
+    },
+    {
+      "width": 1440,
+      "route": "otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Один бренд.\nНесколько точек контакта."
+    },
+    {
+      "width": 1440,
+      "route": "forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Из товарной таблицы —\nв рабочий каталог."
+    },
+    {
+      "width": 1440,
+      "route": "materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Форма начинается\nс материала."
+    },
+    {
+      "width": 1440,
+      "route": "silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Тишина.\nФорма невидимого."
+    },
+    {
+      "width": 1440,
+      "route": "linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    },
+    {
+      "width": 1440,
+      "route": "en/index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From material\nto image\nand product."
+    },
+    {
+      "width": 1440,
+      "route": "en/projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Physical.\nAnd digital."
+    },
+    {
+      "width": 1440,
+      "route": "en/price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "A clear scope.\nOpen pricing."
+    },
+    {
+      "width": 1440,
+      "route": "en/otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "One brand.\nConnected touchpoints."
+    },
+    {
+      "width": 1440,
+      "route": "en/forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From a spreadsheet\nto a working catalog."
+    },
+    {
+      "width": 1440,
+      "route": "en/materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Form begins\nwith material."
+    },
+    {
+      "width": 1440,
+      "route": "en/silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Silence.\nA form for the invisible."
+    },
+    {
+      "width": 1440,
+      "route": "en/linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    },
+    {
+      "width": 390,
+      "route": "index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "От материала\nк образу\nи продукту."
+    },
+    {
+      "width": 390,
+      "route": "projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Предметное.\nИ цифровое."
+    },
+    {
+      "width": 390,
+      "route": "price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Понятный объём.\nОткрытые цены."
+    },
+    {
+      "width": 390,
+      "route": "otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Один бренд.\nНесколько точек контакта."
+    },
+    {
+      "width": 390,
+      "route": "forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Из товарной таблицы —\nв рабочий каталог."
+    },
+    {
+      "width": 390,
+      "route": "materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Форма начинается\nс материала."
+    },
+    {
+      "width": 390,
+      "route": "silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Тишина.\nФорма невидимого."
+    },
+    {
+      "width": 390,
+      "route": "linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    },
+    {
+      "width": 390,
+      "route": "en/index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From material\nto image\nand product."
+    },
+    {
+      "width": 390,
+      "route": "en/projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Physical.\nAnd digital."
+    },
+    {
+      "width": 390,
+      "route": "en/price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "A clear scope.\nOpen pricing."
+    },
+    {
+      "width": 390,
+      "route": "en/otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "One brand.\nConnected touchpoints."
+    },
+    {
+      "width": 390,
+      "route": "en/forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From a spreadsheet\nto a working catalog."
+    },
+    {
+      "width": 390,
+      "route": "en/materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Form begins\nwith material."
+    },
+    {
+      "width": 390,
+      "route": "en/silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Silence.\nA form for the invisible."
+    },
+    {
+      "width": 390,
+      "route": "en/linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    },
+    {
+      "width": 320,
+      "route": "index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "От материала\nк образу\nи продукту."
+    },
+    {
+      "width": 320,
+      "route": "projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Предметное.\nИ цифровое."
+    },
+    {
+      "width": 320,
+      "route": "price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Понятный объём.\nОткрытые цены."
+    },
+    {
+      "width": 320,
+      "route": "otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Один бренд.\nНесколько точек контакта."
+    },
+    {
+      "width": 320,
+      "route": "forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Из товарной таблицы —\nв рабочий каталог."
+    },
+    {
+      "width": 320,
+      "route": "materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Форма начинается\nс материала."
+    },
+    {
+      "width": 320,
+      "route": "silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Тишина.\nФорма невидимого."
+    },
+    {
+      "width": 320,
+      "route": "linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    },
+    {
+      "width": 320,
+      "route": "en/index.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From material\nto image\nand product."
+    },
+    {
+      "width": 320,
+      "route": "en/projects.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Physical.\nAnd digital."
+    },
+    {
+      "width": 320,
+      "route": "en/price.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "A clear scope.\nOpen pricing."
+    },
+    {
+      "width": 320,
+      "route": "en/otutto.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "One brand.\nConnected touchpoints."
+    },
+    {
+      "width": 320,
+      "route": "en/forma-home.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "From a spreadsheet\nto a working catalog."
+    },
+    {
+      "width": 320,
+      "route": "en/materials.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Form begins\nwith material."
+    },
+    {
+      "width": 320,
+      "route": "en/silence.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Silence.\nA form for the invisible."
+    },
+    {
+      "width": 320,
+      "route": "en/linked-helper.html",
+      "overflow": false,
+      "broken": [],
+      "h1": "Linked Helper"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,131 @@
+{
+  "currency": "RUB",
+  "services": [
+    {
+      "id": "pdf-catalog",
+      "priceRub": 30000,
+      "caseHref": "otutto.html#commercial",
+      "ru": {
+        "title": "Коммерческий PDF-каталог",
+        "description": "Понятная презентация ассортимента для отправки заказчикам и партнёрам.",
+        "scope": "До 12 страниц на одном языке: обложка, единый принцип вёрстки, готовые тексты и изображения заказчика, подготовка PDF для отправки.",
+        "costFactors": "Дополнительные страницы, написание текстов, ретушь, новые визуализации и подготовка версии для печати.",
+        "caseLabel": "Коммерческое предложение ОТУТТО",
+        "exampleNote": "Пример подачи изделия и условий в одном документе; не многостраничный PDF-каталог."
+      },
+      "en": {
+        "title": "Commercial PDF catalog",
+        "description": "A clear assortment presentation to share with customers and partners.",
+        "scope": "Up to 12 pages in one language: cover, consistent layout, supplied copy and images, and a PDF prepared for digital sharing.",
+        "costFactors": "Additional pages, copywriting, retouching, new visualizations, and a print-ready edition.",
+        "caseLabel": "OTUTTO commercial proposal",
+        "exampleNote": "An example of presenting a product and its terms in one document, rather than a multi-page PDF catalog."
+      }
+    },
+    {
+      "id": "catalog-data",
+      "priceRub": 50000,
+      "caseHref": "forma-home.html#data",
+      "ru": {
+        "title": "Каталог с обработкой товарных данных",
+        "description": "Приведение товарной таблицы к структуре, с которой можно собирать и обновлять каталог.",
+        "scope": "Один исходный файл, до 100 товарных позиций: нормализация названий и характеристик, структура категорий, связь с готовыми изображениями и один шаблон представления.",
+        "costFactors": "Несколько источников, дубли, сложные варианты товаров, большой объём ручной сверки, обработка фотографий и регулярные обновления.",
+        "caseLabel": "TETOpt: от таблицы к каталогу",
+        "exampleNote": ""
+      },
+      "en": {
+        "title": "Catalog with product data preparation",
+        "description": "Organizing product data into a structure that supports catalog creation and updates.",
+        "scope": "One source file with up to 100 product entries: consistent names and attributes, category structure, links to supplied images, and one presentation template.",
+        "costFactors": "Multiple sources, duplicates, complex variants, extensive manual checks, image editing, and recurring updates.",
+        "caseLabel": "TETOpt: from spreadsheet to catalog",
+        "exampleNote": ""
+      }
+    },
+    {
+      "id": "basic-catalog-site",
+      "priceRub": 30000,
+      "caseHref": "forma-home.html",
+      "ru": {
+        "title": "Сайт-каталог, базовый объём",
+        "description": "Компактный каталог для просмотра товаров и прямого обращения к продавцу.",
+        "scope": "Одна страница каталога, до 30 готовых товарных карточек, базовый поиск, адаптация для телефона и кнопка связи. Один язык, готовые данные и фотографии.",
+        "costFactors": "Отдельные страницы товаров, сложные фильтры, корзина, обработка данных, интеграции и индивидуальный дизайн нескольких страниц рассчитываются отдельно.",
+        "caseLabel": "TETOpt: возможности сайта-каталога",
+        "exampleNote": "Кейс показывает расширенный инструмент. Все его функции не входят в базовый объём за 30 000 ₽."
+      },
+      "en": {
+        "title": "Catalog website, basic scope",
+        "description": "A compact catalog for browsing products and contacting the seller directly.",
+        "scope": "One catalog page, up to 30 supplied product cards, basic search, mobile layout, and a contact button. One language, with ready-to-use data and images.",
+        "costFactors": "Separate product pages, advanced filters, a cart, data preparation, integrations, and bespoke multi-page design are quoted separately.",
+        "caseLabel": "TETOpt: catalog website capabilities",
+        "exampleNote": "This case demonstrates an extended tool. The basic RUB 30,000 scope does not include every feature shown."
+      }
+    },
+    {
+      "id": "furniture-brand-site",
+      "priceRub": 50000,
+      "caseHref": "otutto.html#website",
+      "ru": {
+        "title": "Сайт мебельного бренда",
+        "description": "Сайт, который связывает коллекцию, характер мебели и информацию о производстве.",
+        "scope": "До 5 страниц на одном языке: главная, коллекция и информационные страницы; индивидуальная визуальная система, адаптивная вёрстка и прямые контакты. Материалы предоставляет заказчик.",
+        "costFactors": "Большая коллекция, отдельные страницы моделей, подготовка текстов и изображений, дополнительные языки, нестандартные интерфейсы и интеграции.",
+        "caseLabel": "ОТУТТО: демонстрационный сайт мебели",
+        "exampleNote": "Полный объём многостраничного проекта рассчитывается по структуре и ассортименту."
+      },
+      "en": {
+        "title": "Furniture brand website",
+        "description": "A website connecting the collection, the character of the furniture, and the production story.",
+        "scope": "Up to 5 pages in one language: home, collection, and information pages; a bespoke visual system, responsive layouts, and direct contact links. Content is supplied by the client.",
+        "costFactors": "Larger collections, individual model pages, copy and image production, additional languages, custom interfaces, and integrations.",
+        "caseLabel": "OTUTTO: furniture website demonstration",
+        "exampleNote": "The full multi-page scope is quoted according to the site structure and assortment."
+      }
+    },
+    {
+      "id": "assortment-visuals",
+      "priceRub": 25000,
+      "caseHref": "silence.html",
+      "ru": {
+        "title": "Визуальная упаковка ассортимента",
+        "description": "Согласованная подача изделий: общий образ, детали и каталожный ракурс.",
+        "scope": "Одна визуальная серия для одного предмета: до 4 готовых изображений, единый принцип композиции и света, подготовка для сайта или цифрового каталога.",
+        "costFactors": "Количество изделий и ракурсов, сложность исходников, ретушь, дополнительные форматы и необходимость предметной съёмки.",
+        "caseLabel": "«Тишина»: единая визуальная серия",
+        "exampleNote": "Авторский концептуальный проект демонстрирует подход к серии; это не съёмка серийного товара."
+      },
+      "en": {
+        "title": "Assortment visual presentation",
+        "description": "A consistent way to show products through a main image, details, and catalog views.",
+        "scope": "One visual series for one object: up to 4 finished images, consistent composition and lighting, prepared for a website or digital catalog.",
+        "costFactors": "More products or views, complex source material, retouching, additional formats, and product photography when required.",
+        "caseLabel": "Silence: a consistent visual series",
+        "exampleNote": "This original conceptual project demonstrates the series approach; it is not photography of a manufactured product."
+      }
+    },
+    {
+      "id": "product-and-materials",
+      "priceRub": null,
+      "caseHref": "materials.html",
+      "ru": {
+        "title": "Предметный дизайн и подбор материалов",
+        "description": "Работа с формой, реальными тканями, фактурами и цветом с учётом бюджета изделия.",
+        "scope": "Один предмет или одна группа материалов: разбор задачи, подбор сочетаний из реальных образцов и согласование направления. Состав результата и стоимость определяются по задаче.",
+        "costFactors": "Количество предметов, сложность формы, число вариантов, поиск образцов, техническая документация и сопровождение изготовления.",
+        "caseLabel": "Мебель и текстиль: от образца к изделию",
+        "exampleNote": ""
+      },
+      "en": {
+        "title": "Product design and material selection",
+        "description": "Working with form, real fabrics, textures, and color within the product budget.",
+        "scope": "One object or one material group: brief review, combinations based on real samples, and an agreed design direction. Deliverables and cost are defined for the task.",
+        "costFactors": "Number of objects, form complexity, design options, sample sourcing, technical documentation, and production support.",
+        "caseLabel": "Furniture and textiles: from sample to product",
+        "exampleNote": ""
+      }
+    }
+  ]
+}
