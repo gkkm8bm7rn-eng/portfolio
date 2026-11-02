@@ -111,6 +111,7 @@
     modalCard.replaceChildren(paper);
     modalCount.textContent = String(modalIndex + 1).padStart(2, '0') + ' / ' + count;
     resetZoom();
+    document.dispatchEvent(new CustomEvent('presentation:modalchange', {detail:{index:modalIndex}}));
   }
   function modalStep(dir) {
     modalIndex = (modalIndex + dir + count) % count;
