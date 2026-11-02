@@ -84,3 +84,21 @@
 }
 /* Without enhancement, a light fixed header remains readable over the navy site. */
 html:not(.js) .art-home .site-header:not(.is-over-portfolio){background:#e8e8e3}
+
+/* Continue the art-cover's light editorial language below the fold. */
+.art-home .portfolio-body{
+ background:#e8e8e3;
+ box-shadow:0 -12px 34px rgba(38,56,63,.045);
+}
+.art-home .site-header.is-over-portfolio{
+ --header-ink:#26383f;
+ --header-muted:#536168;
+ background:rgba(232,232,227,.97);
+ border-color:#c8d0cb;
+}
+.art-home .site-header.is-over-portfolio .brand small,
+.art-home .site-header.is-over-portfolio .desktop-nav a,
+.art-home .site-header.is-over-portfolio .languages a{color:#536168}
+.art-home .site-header.is-over-portfolio .desktop-nav a:is(:hover,[aria-current]),
+.art-home .site-header.is-over-portfolio .languages a[aria-current]{color:#26383f}
+@media(prefers-reduced-motion:reduce){.art-home .portfolio-body{box-shadow:none}}
