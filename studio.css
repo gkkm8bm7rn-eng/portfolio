@@ -201,3 +201,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .otutto-gpt-flow p{font-size:11px;color:#637474;margin-top:18px;line-height:1.65}
 .otutto-final-visual{margin-block:55px}.otutto-final-visual img{width:100%;max-height:800px;object-fit:contain}
 @media(max-width:780px){.comms-story-grid,.comms-band-inner,.comms-offer,.comms-visual-grid{grid-template-columns:1fr}.comms-story-grid{gap:35px}.comms-story-grid img{max-height:450px}.comms-deck-preview{min-height:300px}.comms-page h2{font-size:clamp(35px,9vw,52px)}}
+
+
+/* High-resolution presentation originals: keep the complete portrait pages visible. */
+.comms-story-grid img{aspect-ratio:2/3;height:auto;object-fit:contain;background:#e8e6e1}
+.comms-deck-preview-image{margin:0;max-width:100%;min-width:0}
+.comms-deck-preview-image a{display:block}
+.comms-deck-preview-image img{display:block;width:100%;max-height:680px;object-fit:contain;object-position:center;background:#deded9}
+.comms-deck-preview-image figcaption{font-size:12px;margin-top:12px;color:#58676c}
+.project-card .project-image[href="communications.html"] img{object-position:center 42%}
+@media(max-width:780px){.comms-story-grid img{aspect-ratio:2/3;max-height:none;object-fit:contain}.comms-deck-preview-image img{max-height:none}}
