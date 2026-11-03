@@ -184,11 +184,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .comms-story-grid figcaption{display:flex;flex-direction:column;gap:5px;margin-top:13px}.comms-story-grid figcaption strong{font-size:16px}.comms-story-grid figcaption span,.comms-visual-grid figcaption,.comms-note{font-size:12px;color:var(--muted)}
 .comms-band{background:#e9ebe7;color:#21333b;padding:clamp(60px,7vw,110px) 0}
 .comms-band-inner{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(25px,6vw,90px);align-items:center}.comms-band-inner>div>p{color:#52646a}
-.comms-deck-preview{box-sizing:border-box;min-height:330px;background:#1a3841;color:#f2efe6;padding:clamp(25px,4vw,50px);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
-.comms-deck-preview>span:first-child{font:700 11px system-ui,sans-serif;letter-spacing:.15em;color:#bfcfcd}
+.comms-deck-preview{box-sizing:border-box;min-height:330px;background:#e3e7e2;color:#26383f;padding:clamp(25px,4vw,50px);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.comms-deck-preview>span:first-child{font:700 11px system-ui,sans-serif;letter-spacing:.15em;color:#52655b}
 .comms-deck-preview strong{font:400 clamp(34px,3.8vw,62px)/1.08 Georgia,serif}
-.comms-deck-rule{height:1px;background:#819f9b;display:block}
-.comms-deck-preview small{font:500 11px/1.6 system-ui,sans-serif;color:#d4dcd9}
+.comms-deck-rule{height:1px;background:#aab8b1;display:block}
+.comms-deck-preview small{font:500 11px/1.6 system-ui,sans-serif;color:#52655b}
 .comms-offer{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:clamp(30px,6vw,90px);padding-block:clamp(65px,9vw,140px)}
 .comms-offer p{font-size:15px;color:var(--muted)}.comms-offer .text-link{margin-top:22px}
 .comms-offer-image{display:block;max-height:760px;overflow:hidden;background:#e4e5e1}.comms-offer-image img{display:block;width:100%;height:auto}
@@ -308,16 +308,16 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 /* ===== Portfolio finishing pass: responsive legibility + complex digital/brand case ===== */
 .brand-case-hero{padding-top:clamp(56px,7vw,104px);padding-bottom:clamp(38px,5vw,70px)}
 .brand-case-hero h1{max-width:19ch;font-size:clamp(49px,7.3vw,105px);line-height:1.03;overflow-wrap:normal;text-wrap:balance}
-.brand-case-hero h1 em{color:#b8c8bf}
-.brand-case-hero .brand-case-subtitle{margin:clamp(24px,3vw,42px) 0 0;max-width:38ch;font:400 clamp(26px,3.2vw,42px)/1.18 var(--serif);letter-spacing:-.015em;color:#e2e4dc}
-.brand-case-hero .lede{font-size:clamp(16px,1.35vw,18px);line-height:1.8;max-width:68ch;color:#c3cdd0;margin:22px 0 0}
+.brand-case-hero h1 em{color:#4c675c}
+.brand-case-hero .brand-case-subtitle{margin:clamp(24px,3vw,42px) 0 0;max-width:38ch;font:400 clamp(26px,3.2vw,42px)/1.18 var(--serif);letter-spacing:-.015em;color:#40554f}
+.brand-case-hero .lede{font-size:clamp(16px,1.35vw,18px);line-height:1.8;max-width:68ch;color:#58676c;margin:22px 0 0}
 .brand-case-cover{background:transparent;margin-bottom:clamp(34px,5vw,72px)}
-.brand-cover-photo{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(230px,.6fr);background:#29312c;color:#f4eee4;align-items:center;overflow:hidden}
+.brand-cover-photo{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(230px,.6fr);background:#eceae3;color:#26383f;align-items:center;overflow:hidden}
 .brand-cover-photo>img{width:100%;height:100%;min-height:460px;max-height:820px;aspect-ratio:4/5;object-fit:cover;object-position:center 67%}
 .brand-cover-typography{padding:clamp(22px,4vw,65px);display:flex;flex-direction:column;align-items:flex-start;gap:20px;align-self:center}
 .brand-cover-typography>span{font:500 clamp(12px,1.1vw,15px)/1.65 var(--sans);letter-spacing:.17em;max-width:28ch}
 .brand-cover-typography>strong{font:400 clamp(58px,7.2vw,102px)/.95 var(--serif);letter-spacing:.08em}
-.brand-cover-photo>figcaption{grid-column:1/-1;padding:16px clamp(20px,4vw,42px);background:#202a27;color:#e2e1d8;font-size:14px;line-height:1.6}
+.brand-cover-photo>figcaption{grid-column:1/-1;padding:16px clamp(20px,4vw,42px);background:#eceae3;color:#4c6258;font-size:14px;line-height:1.6}
 .brand-identity{margin-top:clamp(75px,9vw,140px);margin-bottom:clamp(75px,9vw,140px);padding-top:clamp(50px,7vw,100px);padding-bottom:clamp(58px,8vw,115px);background:#eceae3;color:#283831;color-scheme:light}
 .brand-identity-intro{max-width:820px;margin-bottom:clamp(35px,5vw,70px)}
 .brand-identity-intro .comms-label{font-size:14px;color:#546a5a;margin-bottom:14px;letter-spacing:.1em}
@@ -353,14 +353,14 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-visuals{margin-top:clamp(80px,9vw,135px);margin-bottom:clamp(75px,10vw,155px)}
 .brand-visuals-intro{margin-bottom:clamp(26px,5vw,65px);max-width:860px}
 .brand-visuals-intro>h2{max-width:20ch;font-size:clamp(48px,5vw,77px);line-height:1.04;text-wrap:balance}
-.brand-visuals-intro>p:last-child{margin-top:20px;font-size:16px;line-height:1.85;color:#c1cacf}
+.brand-visuals-intro>p:last-child{margin-top:20px;font-size:16px;line-height:1.85;color:#58676c}
 .brand-visual-final{background:#dcdfe0;overflow:hidden}
 .brand-visual-final img{width:100%;max-height:920px;object-fit:contain;margin:0 auto}
-.brand-visual-final figcaption{padding:15px 20px;background:#192a31;color:#e0e8e5;font-size:14px;line-height:1.6}
+.brand-visual-final figcaption{padding:15px 20px;background:#eceae3;color:#40554f;font-size:14px;line-height:1.6}
 .brand-process-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,4vw,55px);margin-top:clamp(35px,6vw,78px)}
 .brand-process-grid img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#e3e7e3}
-.brand-process-grid figcaption{font-size:14px;color:#c1cacf;margin-top:16px;line-height:1.65}
-.brand-process-note{font-size:16px;line-height:1.85;color:#c2ccd0;max-width:68ch;margin-top:26px}
+.brand-process-grid figcaption{font-size:14px;color:#58676c;margin-top:16px;line-height:1.65}
+.brand-process-note{font-size:16px;line-height:1.85;color:#58676c;max-width:68ch;margin-top:26px}
 .brand-visuals>.text-link{margin-top:21px}
 .ai-story-avatar{overflow:hidden;letter-spacing:normal}
 .ai-story-avatar img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}
@@ -384,7 +384,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-case-hero .lede{font-size:16px}
 .brand-cover-photo{display:flex;flex-direction:column;align-items:stretch}
 .brand-cover-photo>img{width:100%;height:auto;aspect-ratio:4/5;min-height:0;max-height:none;object-fit:cover;object-position:center}
-.brand-cover-typography{padding:23px 24px;gap:6px;background:#29312c}
+.brand-cover-typography{padding:23px 24px;gap:6px;background:#eceae3}
 .brand-cover-typography>span{font-size:12px}
 .brand-cover-typography>strong{font-size:clamp(53px,11vw,82px)}
 .brand-cover-photo>figcaption{padding:16px 23px;font-size:14px}
@@ -538,3 +538,59 @@ img,video,iframe{max-width:100%}
 .brand-site-media .media-frame{padding:clamp(12px,2.2vw,28px);background:#e4e8e4}
 .brand-site-media .media-frame img{width:100%;height:auto;object-fit:contain}
 .brand-site-media .media-frame figcaption{margin-top:15px;font-size:14px;line-height:1.6;color:#40544c}
+
+
+/* Light editorial QA, 2026-11-03.
+   Make mobile transitions compact without affecting project imagery or content. */
+@media (max-width:760px){
+  .case-result{
+    margin-top:40px;
+    margin-bottom:22px;
+    padding-top:30px;
+    padding-bottom:32px;
+  }
+  .related-projects{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:0;
+    padding-top:20px;
+    padding-bottom:34px;
+  }
+  .related-projects h2{
+    width:100%;
+    margin:0 0 8px;
+  }
+  .related-projects a:not(.case-all-projects){
+    display:block;
+    width:100%;
+    min-height:0;
+    padding:18px 0 20px;
+    font-size:clamp(28px,7.3vw,33px);
+    line-height:1.2;
+    border-bottom:1px solid var(--line);
+    white-space:normal;
+    overflow-wrap:break-word;
+    text-wrap:balance;
+  }
+  .related-projects .case-all-projects{
+    justify-self:start;
+    width:max-content;
+    max-width:100%;
+    margin-top:20px;
+  }
+  .brand-identity{
+    margin-top:54px;
+    margin-bottom:54px;
+  }
+  .brand-visuals{
+    margin-top:52px;
+    margin-bottom:52px;
+  }
+  .brand-process-grid{
+    margin-top:30px;
+    gap:30px;
+  }
+  .brand-case-hero h1{
+    line-height:1.08;
+  }
+}
