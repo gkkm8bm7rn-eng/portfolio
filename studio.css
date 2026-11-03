@@ -466,3 +466,27 @@ img,video,iframe{max-width:100%}
 @media(prefers-reduced-motion:reduce){
 .project-card .project-image img{transform:none!important}
 }
+
+
+/* Printed brochure reverse and dual-role stationery, adapted for accessible web viewing. */
+.brand-booklet-back-page{min-height:100%;display:flex;flex-direction:column;background:#f8f7f2;color:#29332e;padding:clamp(25px,4vw,65px)}
+.brand-booklet-back-page .brand-back-eyebrow{font:600 13px/1.5 var(--sans);letter-spacing:.14em;color:#526458}
+.brand-booklet-back-page h3{font:400 clamp(36px,4.3vw,67px)/1.04 var(--serif);max-width:15ch;margin:22px 0 22px;letter-spacing:-.03em}
+.brand-booklet-back-page>p:not(.brand-booklet-back-caption){font:400 16px/1.8 var(--sans);color:#43574d;max-width:45ch}
+.brand-booklet-back-photo{margin-top:auto;padding-top:25px}
+.brand-booklet-back-photo img{width:100%;max-height:310px;aspect-ratio:5/3;object-fit:cover;filter:grayscale(1)}
+.brand-booklet-back-caption{padding-top:21px;font:500 12px/1.85 var(--sans);letter-spacing:.12em;color:#59675e}
+.brand-booklet-back>figcaption{font:400 14px/1.65 var(--sans);color:#4c6258;margin-top:15px}
+.brand-identity-note .brand-workshop{margin-top:clamp(30px,4vw,52px)}
+.brand-identity-note .brand-workshop img{width:100%;aspect-ratio:5/3;max-height:345px;object-fit:cover}
+.brand-identity-note .brand-workshop figcaption{margin-top:14px}
+.brand-stationery .brand-card-mockup{min-height:600px;padding:clamp(24px,3vw,45px);gap:clamp(16px,2.2vw,28px)}
+.brand-stationery .brand-card{min-height:0;aspect-ratio:1.83}
+@media(max-width:760px){
+.brand-booklet-back-page{min-height:570px;padding:28px}
+.brand-booklet-back-page h3{font-size:clamp(37px,9vw,53px)}
+.brand-booklet-back-page>p:not(.brand-booklet-back-caption){font-size:16px}
+.brand-booklet-back-caption{font-size:12px}
+.brand-stationery .brand-card-mockup{min-height:530px;padding:20px}
+.brand-stationery .brand-card{width:94%;min-height:0;aspect-ratio:1.76}
+}
