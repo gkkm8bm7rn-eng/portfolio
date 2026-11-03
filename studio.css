@@ -116,10 +116,10 @@ h1,h2,h3{overflow-wrap:anywhere}
 /* Light editorial identity — shared by all Russian and English pages.
    Keep the art-cover palette consistent through projects, cases and pricing. */
 :root{
- --navy:#e8e8e3;
- --navy-dark:#e2e3de;
- --navy-soft:#dfe1dc;
- --paper:#f1f0ea;
+ --navy:#f4f5f3;
+ --navy-dark:#eff1ee;
+ --navy-soft:#edf0ec;
+ --paper:#f5f6f4;
  --ink:#26383f;
  --ivory:#26383f;
  --muted:#58676c;
@@ -128,12 +128,12 @@ h1,h2,h3{overflow-wrap:anywhere}
  --light-line:#c8d0cb;
  color-scheme:light;
 }
-html,body{background:#e8e8e3;color:#26383f}
+html,body{background:#f4f5f3;color:#26383f}
 ::selection{background:#b8c8bf;color:#26383f}
-.site-header{background:#e8e8e3;color:#26383f}
+.site-header{background:#f4f5f3;color:#26383f}
 .site-header .brand small,.desktop-nav a,.languages a{color:#536168}
 .desktop-nav a:is(:hover,[aria-current]),.languages a[aria-current]{color:#26383f}
-.project-image,.case-cover{background:#dfe1dc}
+.project-image,.case-cover{background:#edf0ec}
 .project-card .project-meta,.project-card p,.project-link{color:#58676c}
 .project-link{border-bottom-color:#899994}
 .project-card:hover .project-link{border-bottom-color:#26383f}
@@ -143,18 +143,18 @@ html,body{background:#e8e8e3;color:#26383f}
 .button.secondary{background:transparent;color:#26383f;border-color:#8e9d96}
 .button.secondary:hover{background:#d8ded7;border-color:#4c675c;color:#26383f}
 .text-link:hover,.site-footer a:hover,.related-projects a:hover{color:#4c675c}
-.silence-feature{background:#f1f0ea;color:#26383f}
+.silence-feature{background:#f5f6f4;color:#26383f}
 .silence-copy .hero-kicker{color:#4c675c}
 .services-preview article,.studio-note,.case-facts,.case-result,.related-projects,.price-item,.price-cta{border-color:#c8d0cb}
-.contact-section{background:#e2e3de;color:#26383f}
+.contact-section{background:#eff1ee;color:#26383f}
 .contact-section.wrap>.hero-kicker{color:#4c675c}
-.site-footer{background:#e2e3de;color:#58676c}
-.case-cover figcaption{background:#e8e8e3;color:#58676c}
+.site-footer{background:#eff1ee;color:#58676c}
+.case-cover figcaption{background:#f4f5f3;color:#58676c}
 .price-value{color:#4c675c}
 .scope-grid h3{color:#26383f}
-.menu-dialog,.menu-dialog::backdrop{background:#e8e8e3;color:#26383f;color-scheme:light}
+.menu-dialog,.menu-dialog::backdrop{background:#f4f5f3;color:#26383f;color-scheme:light}
 .menu-dialog nav>a[aria-current]{color:#4c675c}
-.mobile-menu nav{background:#e8e8e3;color:#26383f;box-shadow:0 18px 25px rgba(38,56,63,.10)}
+.mobile-menu nav{background:#f4f5f3;color:#26383f;box-shadow:0 18px 25px rgba(38,56,63,.10)}
 .mobile-menu nav a[aria-current=page]{color:#4c675c}
 .skip-link{background:#26383f;color:#fff}
 a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c}
@@ -231,7 +231,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .case-jump-nav{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;margin-top:-18px;margin-bottom:clamp(32px,4vw,58px)}
 .case-jump-label{font:600 12px/1.4 var(--sans);color:#58676c}
 .case-jump-list{display:flex;flex-wrap:wrap;gap:7px}
-.case-jump-list a{min-height:42px;display:inline-flex;align-items:center;padding:8px 14px;border:1px solid #bdc8c0;background:#f1f0ea;border-radius:3px;font:500 12px/1.35 var(--sans)}
+.case-jump-list a{min-height:42px;display:inline-flex;align-items:center;padding:8px 14px;border:1px solid #bdc8c0;background:#f5f6f4;border-radius:3px;font:500 12px/1.35 var(--sans)}
 .case-jump-list a:hover,.case-jump-list a:focus-visible{border-color:#54776b;background:#e0e7df}
 .related-projects .case-all-projects{font:600 12px/1.5 var(--sans);letter-spacing:.03em;min-height:44px;border:1px solid #9facaa;padding:7px 15px;margin-top:8px}
 @media(max-width:760px){
@@ -312,13 +312,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-case-hero .brand-case-subtitle{margin:clamp(24px,3vw,42px) 0 0;max-width:38ch;font:400 clamp(26px,3.2vw,42px)/1.18 var(--serif);letter-spacing:-.015em;color:#40554f}
 .brand-case-hero .lede{font-size:clamp(16px,1.35vw,18px);line-height:1.8;max-width:68ch;color:#58676c;margin:22px 0 0}
 .brand-case-cover{background:transparent;margin-bottom:clamp(34px,5vw,72px)}
-.brand-cover-photo{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(230px,.6fr);background:#eceae3;color:#26383f;align-items:center;overflow:hidden}
+.brand-cover-photo{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(230px,.6fr);background:#f4f5f3;color:#26383f;align-items:center;overflow:hidden}
 .brand-cover-photo>img{width:100%;height:100%;min-height:460px;max-height:820px;aspect-ratio:4/5;object-fit:cover;object-position:center 67%}
 .brand-cover-typography{padding:clamp(22px,4vw,65px);display:flex;flex-direction:column;align-items:flex-start;gap:20px;align-self:center}
 .brand-cover-typography>span{font:500 clamp(12px,1.1vw,15px)/1.65 var(--sans);letter-spacing:.17em;max-width:28ch}
 .brand-cover-typography>strong{font:400 clamp(58px,7.2vw,102px)/.95 var(--serif);letter-spacing:.08em}
-.brand-cover-photo>figcaption{grid-column:1/-1;padding:16px clamp(20px,4vw,42px);background:#eceae3;color:#4c6258;font-size:14px;line-height:1.6}
-.brand-identity{margin-top:clamp(75px,9vw,140px);margin-bottom:clamp(75px,9vw,140px);padding-top:clamp(50px,7vw,100px);padding-bottom:clamp(58px,8vw,115px);background:#eceae3;color:#283831;color-scheme:light}
+.brand-cover-photo>figcaption{grid-column:1/-1;padding:16px clamp(20px,4vw,42px);background:#f4f5f3;color:#4c6258;font-size:14px;line-height:1.6}
+.brand-identity{margin-top:clamp(75px,9vw,140px);margin-bottom:clamp(75px,9vw,140px);padding-top:clamp(50px,7vw,100px);padding-bottom:clamp(58px,8vw,115px);background:#f4f5f3;color:#283831;color-scheme:light}
 .brand-identity-intro{max-width:820px;margin-bottom:clamp(35px,5vw,70px)}
 .brand-identity-intro .comms-label{font-size:14px;color:#546a5a;margin-bottom:14px;letter-spacing:.1em}
 .brand-identity-intro h2{font-size:clamp(47px,5.5vw,75px);line-height:1.03;text-wrap:balance;max-width:18ch}
@@ -332,7 +332,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-booklet-type>span{font:500 clamp(10px,1.1vw,14px)/1.6 var(--sans);letter-spacing:.16em}
 .brand-booklet-type>strong{font:400 clamp(53px,6vw,104px)/.92 var(--serif);letter-spacing:.06em}
 .brand-stationery{display:flex;flex-direction:column}
-.brand-card-mockup{background:#dcd7cd;min-height:430px;height:100%;display:flex;flex-direction:column;justify-content:center;gap:clamp(22px,3vw,38px);padding:clamp(18px,3.5vw,56px)}
+.brand-card-mockup{background:#e9ede9;min-height:430px;height:100%;display:flex;flex-direction:column;justify-content:center;gap:clamp(22px,3vw,38px);padding:clamp(18px,3.5vw,56px)}
 .brand-card{width:min(92%,450px);min-height:clamp(130px,13.5vw,200px);aspect-ratio:1.72;box-shadow:0 14px 35px #303b3826;overflow:hidden}
 .brand-card-photo{align-self:flex-start;position:relative;background:#37292c}
 .brand-card-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 63%;filter:brightness(.85)}
@@ -347,7 +347,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-identity-note>h3{font-size:clamp(39px,4vw,63px);line-height:1.05;margin:14px 0 20px;max-width:15ch}
 .brand-identity-note>p{font:400 16px/1.85 var(--sans);color:#4c6258;max-width:52ch}
 .brand-commercial .comms-label,.brand-visuals-intro .comms-label{font-size:14px;letter-spacing:.11em;margin-bottom:18px}
-.brand-palermo-sheet{background:#e8e9e3;padding:clamp(12px,2vw,35px);max-width:650px;margin:auto}
+.brand-palermo-sheet{background:#eef1ed;padding:clamp(12px,2vw,35px);max-width:650px;margin:auto}
 .brand-palermo-sheet img{width:100%;max-height:920px;object-fit:contain}
 .brand-palermo-sheet figcaption{font:400 14px/1.6 var(--sans);color:#42534a;margin-top:16px}
 .brand-visuals{margin-top:clamp(80px,9vw,135px);margin-bottom:clamp(75px,10vw,155px)}
@@ -356,7 +356,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-visuals-intro>p:last-child{margin-top:20px;font-size:16px;line-height:1.85;color:#58676c}
 .brand-visual-final{background:#dcdfe0;overflow:hidden}
 .brand-visual-final img{width:100%;max-height:920px;object-fit:contain;margin:0 auto}
-.brand-visual-final figcaption{padding:15px 20px;background:#eceae3;color:#40554f;font-size:14px;line-height:1.6}
+.brand-visual-final figcaption{padding:15px 20px;background:#f4f5f3;color:#40554f;font-size:14px;line-height:1.6}
 .brand-process-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,4vw,55px);margin-top:clamp(35px,6vw,78px)}
 .brand-process-grid img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#e3e7e3}
 .brand-process-grid figcaption{font-size:14px;color:#58676c;margin-top:16px;line-height:1.65}
@@ -384,7 +384,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .brand-case-hero .lede{font-size:16px}
 .brand-cover-photo{display:flex;flex-direction:column;align-items:stretch}
 .brand-cover-photo>img{width:100%;height:auto;aspect-ratio:4/5;min-height:0;max-height:none;object-fit:cover;object-position:center}
-.brand-cover-typography{padding:23px 24px;gap:6px;background:#eceae3}
+.brand-cover-typography{padding:23px 24px;gap:6px;background:#f4f5f3}
 .brand-cover-typography>span{font-size:12px}
 .brand-cover-typography>strong{font-size:clamp(53px,11vw,82px)}
 .brand-cover-photo>figcaption{padding:16px 23px;font-size:14px}
@@ -469,7 +469,7 @@ img,video,iframe{max-width:100%}
 
 
 /* Printed brochure reverse and dual-role stationery, adapted for accessible web viewing. */
-.brand-booklet-back-page{min-height:100%;display:flex;flex-direction:column;background:#f8f7f2;color:#29332e;padding:clamp(25px,4vw,65px)}
+.brand-booklet-back-page{min-height:100%;display:flex;flex-direction:column;background:#f8f9f7;color:#29332e;padding:clamp(25px,4vw,65px)}
 .brand-booklet-back-page .brand-back-eyebrow{font:600 13px/1.5 var(--sans);letter-spacing:.14em;color:#526458}
 .brand-booklet-back-page h3{font:400 clamp(36px,4.3vw,67px)/1.04 var(--serif);max-width:15ch;margin:22px 0 22px;letter-spacing:-.03em}
 .brand-booklet-back-page>p:not(.brand-booklet-back-caption){font:400 16px/1.8 var(--sans);color:#43574d;max-width:45ch}
@@ -599,7 +599,7 @@ img,video,iframe{max-width:100%}
 /* Portfolio editorial cleanup: accurate imagery, natural color, mobile clarity. */
 .brand-identity-bottom{display:block;max-width:1000px;margin:clamp(30px,5vw,64px) auto 0}
 .brand-stationery-original{display:block;width:100%}
-.brand-stationery-original img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:1060/707;object-fit:contain;background:#e8e3db}
+.brand-stationery-original img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:1060/707;object-fit:contain;background:#edf0ec}
 .brand-booklet-back-photo{width:100%;overflow:hidden;aspect-ratio:5/3}
 .brand-booklet-back-photo img{
   display:block;width:130%;max-width:none;height:100%;max-height:none;
@@ -630,3 +630,29 @@ img,video,iframe{max-width:100%}
   .case-cover + .case-section,
   .brand-case-cover + .case-section{margin-top:32px}
 }
+
+
+/* 2026-11: non-cropping client-first portfolio visuals. */
+.project-card .project-image:not(.linked-helper-thumb) img{
+  display:block;width:100%;height:100%;object-fit:contain;object-position:center;transform:none!important;
+}
+.project-card.small .project-image{aspect-ratio:4/3}
+.project-card .project-image{background:#edf0ec}
+.brand-cover-photo>img{
+  display:block;width:100%;height:auto!important;min-height:0!important;max-height:none!important;
+  aspect-ratio:auto!important;object-fit:contain!important;object-position:center;
+}
+.brand-booklet-visual{background:#edf0ec}
+.brand-booklet-visual>img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+.brand-identity{background:#eef1ed}
+.brand-identity .brand-booklet-back-page{min-height:0;height:100%}
+.brand-stationery-original img{width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain}
+.brand-visual-final img{max-height:none}
+.brand-process-grid img{height:auto;aspect-ratio:auto;object-fit:contain}
+@media(max-width:760px){
+  .brand-identity .brand-booklet-back-page{height:auto;min-height:0}
+  .brand-identity-grid{align-items:start}
+  .brand-stationery-original{margin:0}
+  .project-card .project-image:not(.linked-helper-thumb) img{object-fit:contain}
+}
+
