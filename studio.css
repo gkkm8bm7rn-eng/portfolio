@@ -138,8 +138,8 @@ html,body{background:#e8e8e3;color:#26383f}
 .project-link{border-bottom-color:#899994}
 .project-card:hover .project-link{border-bottom-color:#26383f}
 .eyebrow,.hero-kicker,.project-meta,.case-facts dt{color:#4c675c}
-.button{background:#26383f;border-color:#26383f;color:#f1f0ea}
-.button:hover{background:#40584e;border-color:#40584e;color:#fff}
+.button{background:#d2ded5;border-color:#96aa9d;color:#26383f}
+.button:hover{background:#bed1c3;border-color:#668474;color:#26383f}
 .button.secondary{background:transparent;color:#26383f;border-color:#8e9d96}
 .button.secondary:hover{background:#d8ded7;border-color:#4c675c;color:#26383f}
 .text-link:hover,.site-footer a:hover,.related-projects a:hover{color:#4c675c}
@@ -218,8 +218,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#4c675c
 .project-card .project-number{font:600 11px/1.4 var(--sans);letter-spacing:.15em;color:#667b76;margin:0 0 14px;max-width:none}
 .project-actions{display:flex;flex-wrap:wrap;gap:9px 12px;align-items:center;border-top:1px solid var(--line);margin-top:23px;padding-top:18px}
 .project-actions>.project-link{display:inline-flex;justify-content:center;align-items:center;min-height:44px;margin:0;padding:9px 17px;border:1px solid #a5b0a9;border-radius:3px;color:var(--ink);font:600 12px/1.5 var(--sans);text-align:center;letter-spacing:.01em}
-.project-actions>.project-link:first-child{background:#26383f;border-color:#26383f;color:#f1f0ea}
-.project-actions>.project-link:first-child:hover{background:#40584e;border-color:#40584e;color:white}
+.project-actions>.project-link:first-child{background:#d2ded5;border-color:#96aa9d;color:#26383f}
+.project-actions>.project-link:first-child:hover{background:#bed1c3;border-color:#668474;color:#26383f}
 .project-actions>.project-link:not(:first-child):hover{background:#d9dfd8;border-color:#6f897b;color:#26383f}
 .project-actions>.project-demo-link{margin-left:0}
 .case-breadcrumbs{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:clamp(16px,2vw,26px);color:#58676c;font:500 12px/1.5 var(--sans)}
