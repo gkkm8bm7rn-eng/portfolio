@@ -594,3 +594,39 @@ img,video,iframe{max-width:100%}
     line-height:1.08;
   }
 }
+
+
+/* Portfolio editorial cleanup: accurate imagery, natural color, mobile clarity. */
+.brand-identity-bottom{display:block;max-width:1000px;margin:clamp(30px,5vw,64px) auto 0}
+.brand-stationery-original{display:block;width:100%}
+.brand-stationery-original img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:1060/707;object-fit:contain;background:#e8e3db}
+.brand-booklet-back-photo{width:100%;overflow:hidden;aspect-ratio:5/3}
+.brand-booklet-back-photo img{
+  display:block;width:130%;max-width:none;height:100%;max-height:none;
+  aspect-ratio:auto;object-fit:cover;object-position:center;
+  transform:translateX(-23%);filter:none;
+}
+.brand-booklet-back-page{min-height:0}
+.brand-case-cover{margin-bottom:clamp(24px,4vw,45px)}
+.brand-identity-grid figcaption:empty,.brand-identity-bottom figcaption:empty{display:none}
+@media(max-width:760px){
+  .brand-identity{padding-block:36px 42px;margin-block:40px}
+  .brand-identity-bottom{margin-top:26px}
+  .brand-booklet-back-page{min-height:0}
+  .brand-booklet-back-page h3{font-size:clamp(32px,8vw,46px)}
+  .brand-booklet-back-photo{margin-top:26px}
+  .brand-case-hero{padding-bottom:30px}
+  .ai-story-section{margin-top:52px;margin-bottom:56px}
+  .ai-story-stage{padding-block:25px 28px}
+  .ai-story-label{margin-bottom:15px}
+  .brand-visuals{margin-top:48px;margin-bottom:52px}
+}
+/* Case pages without the redundant facts strip move straight into the work. */
+.case-cover + .case-section,
+.brand-case-cover + .case-section{
+  margin-top:clamp(34px,5vw,74px);
+}
+@media(max-width:760px){
+  .case-cover + .case-section,
+  .brand-case-cover + .case-section{margin-top:32px}
+}
