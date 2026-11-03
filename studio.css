@@ -490,3 +490,40 @@ img,video,iframe{max-width:100%}
 .brand-stationery .brand-card-mockup{min-height:530px;padding:20px}
 .brand-stationery .brand-card{width:94%;min-height:0;aspect-ratio:1.76}
 }
+
+
+/* Final small-type audit. Useful words must stay legible at real phone widths. */
+.hero-kicker,.eyebrow,.comms-label{font-size:13px;line-height:1.65}
+.brand small{font-size:12px;letter-spacing:.08em}
+.languages a{font-size:14px;min-width:36px;min-height:44px}
+.site-footer{font-size:13px}
+.contact-details>p{font-size:14px}
+.notice,.source-note{font-size:14px;line-height:1.8}
+.case-reference p,.case-reference small{font-size:13px}
+.scope-grid p,.scope-grid ul{font-size:14px}
+.scope-grid h3{font-size:14px}
+.comms-note,.comms-visual-grid figcaption,.comms-story-grid figcaption span{font-size:14px;line-height:1.6}
+.menu-dialog-header>span{font-size:14px}
+.price-intro-note,.page-intro .price-intro-note{font-size:14px!important}
+.ai-story-label .ai-stage-count{font-size:13px}
+.ai-message .ai-message-author{font-size:13px}
+.ai-story-description{font-size:15px}
+.ai-story-footnote{font-size:14px}
+@media(max-width:760px){
+.hero-kicker,.eyebrow,.comms-label{font-size:13px}
+.brand small{font-size:12px}
+.mobile-menu summary{font-size:14px;min-width:44px;min-height:44px}
+.menu-dialog-header>span{font-size:14px}
+.button{font-size:14px;min-height:48px}
+.text-link{font-size:14px;min-height:44px}
+.site-footer{font-size:13px}
+.contact-details>p{font-size:14px}
+.notice,.source-note{font-size:14px}
+.scope-grid p,.scope-grid ul{font-size:14px}
+.case-reference p,.case-reference small{font-size:13px}
+.ai-story-label .ai-stage-count{font-size:13px}
+}
+@media(max-width:380px){
+.button{font-size:14px;max-width:100%;overflow-wrap:break-word}
+.brand-case-hero h1{font-size:clamp(40px,10.7vw,49px)}
+}
