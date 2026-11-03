@@ -621,3 +621,12 @@ img,video,iframe{max-width:100%}
   .ai-story-label{margin-bottom:15px}
   .brand-visuals{margin-top:48px;margin-bottom:52px}
 }
+/* Case pages without the redundant facts strip move straight into the work. */
+.case-cover + .case-section,
+.brand-case-cover + .case-section{
+  margin-top:clamp(34px,5vw,74px);
+}
+@media(max-width:760px){
+  .case-cover + .case-section,
+  .brand-case-cover + .case-section{margin-top:32px}
+}
